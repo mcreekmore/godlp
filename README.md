@@ -17,7 +17,7 @@ godlp is a Go-based command-line interface (CLI) application that wraps commonly
 Make sure you have Go installed. Clone the godlp repository and build the executable:
 
 ```bash
-git clone https://github.com/yourusername/godlp.git
+git clone https://github.com/mcreekmore/godlp.git
 cd godlp
 go build -o godlp main.go
 ```
