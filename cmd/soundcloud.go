@@ -3,8 +3,13 @@ package cmd
 import (
 	"fmt"
 	"godlp/embed"
+	"godlp/utils"
+	"log"
+	"os"
+	"path/filepath"
 
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 )
 
 // soundcloudCmd represents the soundcloud command
@@ -23,34 +28,77 @@ to quickly create a Cobra application.`,
 			return
 		}
 
-		// soundcloudURL := args[0]
-		dlpArgs := []string{
-			"-o",
-			"%(title)s.%(ext)s",
+		// Get the current working directory
+		cwd, err := os.Getwd()
+		if err != nil {
+			fmt.Printf("Error getting current working directory: %v\n", err)
+			return
+		}
+
+		// Generate the temporary directory path
+		tempDlDir := cwd + "/temp"
+
+		scArgs := []string{
+			"-o", "%(title)s.%(ext)s",
 			"--embed-metadata",
 			"--embed-thumbnail",
-			"--metadata-from-title",
-			"'%(album)s'",
+			"--metadata-from-title", "%(album)s",
+			// "--parse-metadata", "%(title)s:%(album)s",
+			"--paths", tempDlDir,
 			args[0], // Assuming soundcloudURL is the first argument
 		}
 
-		embed.ExecuteYtDlp(dlpArgs)
+		musicDir := viper.GetString("music_directory")
 
-		// // Call yt-dlp command with the provided URL
-		// dlpCmd := exec.Command("yt-dlp", "-o", "'%(title)s.%(ext)s'", "--embed-metadata", "--embed-thumbnail", "--metadata-from-title", "'%(album)s'", soundcloudURL)
+		embed.ExecuteYtDlp(scArgs)
+
+		albumName, _ := cmd.Flags().GetString("album")
+		if albumName == "" {
+			fmt.Println("No album name provided. Grabbing Artist name instead.")
+			// Extract artist name from the file
+			artistName, err := utils.ExtractArtistNameFromTempDir(tempDlDir)
+			if err != nil {
+				fmt.Printf("Error extracting artist name: %v\n", err)
+				return
+			}
+
+			// Use the extracted artist name as the album name
+			albumName = artistName
+		}
+
+		// Generate the final music directory path
+		saveDir := filepath.Join(musicDir, albumName)
+
+		// Move files from tempDir to musicDir
+		err = os.MkdirAll(saveDir, os.ModePerm)
+		if err != nil {
+			fmt.Printf("Error creating music directory: %v\n", err)
+			return
+		}
+
+		err = utils.MoveFiles(tempDlDir, saveDir)
+		if err != nil {
+			fmt.Printf("Error moving files: %v\n", err)
+			return
+		}
+
+		fmt.Println("Files moved to:", saveDir)
+
+		// Remove the tempDir when done
+		err = os.RemoveAll(tempDlDir)
+		if err != nil {
+			log.Printf("Error removing temp directory: %v\n", err)
+			return
+		}
 	},
 }
 
 func init() {
 	rootCmd.AddCommand(soundcloudCmd)
-
-	// Here you will define your flags and configuration settings.
-
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 	// soundcloudCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
-	// is called directly, e.g.:
-	// soundcloudCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	soundcloudCmd.Flags().StringP("album", "a", "", "if it's an album, use this string to name the save directory")
 }
