@@ -2,6 +2,7 @@ package utils
 
 import (
 	"fmt"
+	"godlp/embed"
 	"io"
 	"os"
 	"path/filepath"
@@ -68,4 +69,33 @@ func ExtractArtistNameFromTempDir(tempDir string) (string, error) {
 	artistName := strings.TrimSpace(parts[0])
 
 	return artistName, nil
+}
+
+func ChangeAlbumNameWithFFmpeg(directory, albumName string) error {
+	files, err := filepath.Glob(filepath.Join(directory, "*"))
+	if err != nil {
+		return err
+	}
+
+	for _, file := range files {
+		ffmpegArgs := []string{
+			"-y",
+			"-i", file,
+			"-metadata", fmt.Sprintf("album=%s", albumName),
+			"-c", "copy",
+			file + "_temp.mp3",
+		}
+		err := embed.ExecuteFfmpeg(ffmpegArgs)
+		if err != nil {
+			return err
+		}
+
+		// Replace the original file with the one containing updated metadata
+		err = os.Rename(file+"_temp.mp3", file)
+		if err != nil {
+			return err
+		}
+	}
+
+	return nil
 }

@@ -16,12 +16,11 @@ import (
 var soundcloudCmd = &cobra.Command{
 	Use:   "soundcloud",
 	Short: "For downloading tracks from soundcloud",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Long: `Downloads single tracks or collections from soundcloud and moves 
+them to your configs 'music_directory' path when done. Pass an optional
+--album flag to set the directory name they will be saved in. yt-dlp doesn't
+directly support grabbing albumn titles. By default, the artist name is used
+in place.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) < 1 {
 			fmt.Println("Please provide a SoundCloud URL.")
@@ -36,7 +35,7 @@ to quickly create a Cobra application.`,
 		}
 
 		// Generate the temporary directory path
-		tempDlDir := cwd + "/temp"
+		tempDir := cwd + "/temp"
 
 		scArgs := []string{
 			"-o", "%(title)s.%(ext)s",
@@ -44,7 +43,7 @@ to quickly create a Cobra application.`,
 			"--embed-thumbnail",
 			"--metadata-from-title", "%(album)s",
 			// "--parse-metadata", "%(title)s:%(album)s",
-			"--paths", tempDlDir,
+			"--paths", tempDir,
 			args[0], // Assuming soundcloudURL is the first argument
 		}
 
@@ -56,7 +55,7 @@ to quickly create a Cobra application.`,
 		if albumName == "" {
 			fmt.Println("No album name provided. Grabbing Artist name instead.")
 			// Extract artist name from the file
-			artistName, err := utils.ExtractArtistNameFromTempDir(tempDlDir)
+			artistName, err := utils.ExtractArtistNameFromTempDir(tempDir)
 			if err != nil {
 				fmt.Printf("Error extracting artist name: %v\n", err)
 				return
@@ -64,6 +63,10 @@ to quickly create a Cobra application.`,
 
 			// Use the extracted artist name as the album name
 			albumName = artistName
+		} else {
+			// Use FFmpeg to change album name metadata
+			fmt.Println("Album flag provided. Writing with ffmpeg...")
+			utils.ChangeAlbumNameWithFFmpeg(tempDir, albumName)
 		}
 
 		// Generate the final music directory path
@@ -76,7 +79,7 @@ to quickly create a Cobra application.`,
 			return
 		}
 
-		err = utils.MoveFiles(tempDlDir, saveDir)
+		err = utils.MoveFiles(tempDir, saveDir)
 		if err != nil {
 			fmt.Printf("Error moving files: %v\n", err)
 			return
@@ -85,7 +88,7 @@ to quickly create a Cobra application.`,
 		fmt.Println("Files moved to:", saveDir)
 
 		// Remove the tempDir when done
-		err = os.RemoveAll(tempDlDir)
+		err = os.RemoveAll(tempDir)
 		if err != nil {
 			log.Printf("Error removing temp directory: %v\n", err)
 			return
