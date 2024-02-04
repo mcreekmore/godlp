@@ -1,6 +1,3 @@
-/*
-Copyright © 2024 Matt Creekmore matt@creekmore.io
-*/
 package cmd
 
 import (

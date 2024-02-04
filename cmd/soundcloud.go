@@ -1,10 +1,8 @@
-/*
-Copyright © 2024 NAME HERE <EMAIL ADDRESS>
-*/
 package cmd
 
 import (
 	"fmt"
+	"godlp/embed"
 
 	"github.com/spf13/cobra"
 )
@@ -20,7 +18,26 @@ Cobra is a CLI library for Go that empowers applications.
 This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("soundcloud called")
+		if len(args) < 1 {
+			fmt.Println("Please provide a SoundCloud URL.")
+			return
+		}
+
+		// soundcloudURL := args[0]
+		dlpArgs := []string{
+			"-o",
+			"%(title)s.%(ext)s",
+			"--embed-metadata",
+			"--embed-thumbnail",
+			"--metadata-from-title",
+			"'%(album)s'",
+			args[0], // Assuming soundcloudURL is the first argument
+		}
+
+		embed.ExecuteYtDlp(dlpArgs)
+
+		// // Call yt-dlp command with the provided URL
+		// dlpCmd := exec.Command("yt-dlp", "-o", "'%(title)s.%(ext)s'", "--embed-metadata", "--embed-thumbnail", "--metadata-from-title", "'%(album)s'", soundcloudURL)
 	},
 }
 
