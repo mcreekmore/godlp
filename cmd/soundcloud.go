@@ -42,34 +42,28 @@ in place.`,
 			"--embed-metadata",
 			"--embed-thumbnail",
 			"--metadata-from-title", "%(album)s",
-			// "--parse-metadata", "%(title)s:%(album)s",
 			"--paths", tempDir,
 			args[0], // Assuming soundcloudURL is the first argument
 		}
-
-		musicDir := viper.GetString("music_directory")
 
 		embed.ExecuteYtDlp(scArgs)
 
 		albumName, _ := cmd.Flags().GetString("album")
 		if albumName == "" {
 			fmt.Println("No album name provided. Grabbing Artist name instead.")
-			// Extract artist name from the file
-			artistName, err := utils.ExtractArtistNameFromTempDir(tempDir)
+			artistName, err := utils.ExtractArtistNameFromFile(tempDir)
 			if err != nil {
 				fmt.Printf("Error extracting artist name: %v\n", err)
 				return
 			}
-
-			// Use the extracted artist name as the album name
 			albumName = artistName
 		} else {
-			// Use FFmpeg to change album name metadata
 			fmt.Println("Album flag provided. Writing with ffmpeg...")
 			utils.ChangeAlbumNameWithFFmpeg(tempDir, albumName)
 		}
 
 		// Generate the final music directory path
+		musicDir := viper.GetString("music_directory")
 		saveDir := filepath.Join(musicDir, albumName)
 
 		// Move files from tempDir to musicDir

@@ -46,7 +46,7 @@ func MoveFiles(source, dest string) error {
 	return nil
 }
 
-func ExtractArtistNameFromTempDir(tempDir string) (string, error) {
+func ExtractArtistNameFromFile(tempDir string) (string, error) {
 	files, err := filepath.Glob(filepath.Join(tempDir, "*"))
 	if err != nil {
 		return "", err
