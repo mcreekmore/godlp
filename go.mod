@@ -1,4 +1,4 @@
-module godlp
+module github.com/mcreekmore/godlp
 
 go 1.19
 

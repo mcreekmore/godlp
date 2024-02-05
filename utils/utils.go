@@ -2,7 +2,7 @@ package utils
 
 import (
 	"fmt"
-	"godlp/embed"
+	"github.com/mcreekmore/godlp/embed"
 	"io"
 	"os"
 	"path/filepath"

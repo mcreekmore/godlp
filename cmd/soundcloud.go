@@ -2,8 +2,8 @@ package cmd
 
 import (
 	"fmt"
-	"godlp/embed"
-	"godlp/utils"
+	"github.com/mcreekmore/godlp/embed"
+	"github.com/mcreekmore/godlp/utils"
 	"log"
 	"os"
 	"path/filepath"
