@@ -7,6 +7,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/gocolly/colly/v2"
 )
 
 func MoveFiles(source, dest string) error {
@@ -98,4 +100,53 @@ func ChangeAlbumNameWithFFmpeg(directory, albumName string) error {
 	}
 
 	return nil
+}
+
+func ScrapeSoundcloudAlbumTitle(url string) (string, error) {
+	var title string
+
+	c := colly.NewCollector()
+
+	c.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+	// c.OnHTML("*", func(e *colly.HTMLElement) {
+	// 	fmt.Println(e.Text)
+	// })
+	// c.OnHTML("article header h1[itemprop=name]", func(e *colly.HTMLElement) {
+	// 	// Find the <a> within the <h1> element
+	// 	a := e.ChildAttr("a", "href")
+	// 	title = strings.TrimPrefix(a, "/")
+
+	// 	// Print the full title for debugging
+	// 	fmt.Println("Full Title:", title)
+	// })
+	// c.OnHTML("article header h1.soundTitle__title", func(e *colly.HTMLElement) {
+	// 	// Extract text content of the h1 element
+	// 	title = e.Text
+
+	// 	// Print the full title for debugging
+	// 	fmt.Println("Full Title:", title)
+	// })
+	c.OnResponse(func(r *colly.Response) {
+		fmt.Println("Page visited: ", r.Request.URL)
+	})
+	c.OnHTML("h1.sounTitle__title", func(e *colly.HTMLElement) {
+		// printing all URLs associated with the a links in the page
+		fmt.Println(e)
+		// fmt.Println(e.ChildText("a"))
+	})
+
+	c.OnError(func(r *colly.Response, err error) {
+		fmt.Println("Request URL:", r.Request.URL, "failed with response:", r, "\nError:", err)
+	})
+
+	err := c.Visit(url)
+	if err != nil {
+		return "", err
+	}
+
+	c.Wait()
+
+	fmt.Println("title: ", title)
+	return title, nil
 }

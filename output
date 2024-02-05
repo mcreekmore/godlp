@@ -1,0 +1,953 @@
+matt@intel:~/code/godlp$ go run main.go soundcloud https://soundcloud.com/griz/sets/id-bible-1
+Using config file: /home/matt/.godlp.yaml
+[soundcloud:set] Extracting URL: https://soundcloud.com/griz/sets/id-bible-1
+[soundcloud:set] griz/sets/id-bible-1: Downloading JSON metadata
+[download] Downloading playlist: ID Bible (1)
+[info] There are no playlist thumbnails to download
+[soundcloud:set] Playlist ID Bible (1): Downloading 24 items of 24
+[download] Downloading item 1 of 24
+[soundcloud] Extracting URL: https://soundcloud.com/griz/supersonic
+[soundcloud] griz/supersonic: Downloading info JSON
+[soundcloud] 1620454383: Downloading JSON metadata
+[soundcloud] 1620454383: Downloading JSON metadata
+[soundcloud] 1620454383: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Supersonic'
+[info] 1620454383: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Supersonic.jpg
+[download] Destination: /home/matt/code/godlp/temp/Supersonic.mp3
+[download] 100% of 2.67MiB in 00:00:00 at 16.39MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Supersonic.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Supersonic.mp3"
+[download] Downloading item 2 of 24
+[soundcloud] Extracting URL: https://soundcloud.com/griz/burnt-chili
+[soundcloud] griz/burnt-chili: Downloading info JSON
+[soundcloud] 1620454089: Downloading JSON metadata
+[soundcloud] 1620454089: Downloading JSON metadata
+[soundcloud] 1620454089: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Burnt Chili'
+[info] 1620454089: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Burnt Chili.jpg
+[download] Destination: /home/matt/code/godlp/temp/Burnt Chili.mp3
+[download] 100% of 1.94MiB in 00:00:00 at 15.69MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Burnt Chili.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Burnt Chili.mp3"
+[download] Downloading item 3 of 24
+[soundcloud] Extracting URL: https://soundcloud.com/griz/womp-womp-wonky
+[soundcloud] griz/womp-womp-wonky: Downloading info JSON
+[soundcloud] 1620454566: Downloading JSON metadata
+[soundcloud] 1620454566: Downloading JSON metadata
+[soundcloud] 1620454566: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Womp Womp Wonky'
+[info] 1620454566: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Womp Womp Wonky.jpg
+[download] Destination: /home/matt/code/godlp/temp/Womp Womp Wonky.mp3
+[download] 100% of 1.21MiB in 00:00:00 at 10.22MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Womp Womp Wonky.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Womp Womp Wonky.mp3"
+[download] Downloading item 4 of 24
+[soundcloud] Extracting URL: https://soundcloud.com/griz/we-came-to-move
+[soundcloud] griz/we-came-to-move: Downloading info JSON
+[soundcloud] 1620454419: Downloading JSON metadata
+[soundcloud] 1620454419: Downloading JSON metadata
+[soundcloud] 1620454419: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'We Came To Move'
+[info] 1620454419: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/We Came To Move.jpg
+[download] Destination: /home/matt/code/godlp/temp/We Came To Move.mp3
+[download] 100% of 2.98MiB in 00:00:00 at 22.37MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/We Came To Move.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/We Came To Move.mp3"
+[download] Downloading item 5 of 24
+[soundcloud] Extracting URL: https://soundcloud.com/griz/dimension-expander-feat-probcause
+[soundcloud] griz/dimension-expander-feat-probcause: Downloading info JSON
+[soundcloud] 1620453762: Downloading JSON metadata
+[soundcloud] 1620453762: Downloading JSON metadata
+[soundcloud] 1620453762: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Dimension Expander (feat. ProbCause)'
+[info] 1620453762: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Dimension Expander (feat. ProbCause).jpg
+[download] Destination: /home/matt/code/godlp/temp/Dimension Expander (feat. ProbCause).mp3
+[download] 100% of 2.25MiB in 00:00:00 at 18.74MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Dimension Expander (feat. ProbCause).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Dimension Expander (feat. ProbCause).mp3"
+[download] Downloading item 6 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620453942
+[soundcloud] 1620453942: Downloading info JSON
+[soundcloud] 1620453942: Downloading JSON metadata
+[soundcloud] 1620453942: Downloading JSON metadata
+[soundcloud] 1620453942: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Infinite Bloom'
+[info] 1620453942: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Infinite Bloom.jpg
+[download] Destination: /home/matt/code/godlp/temp/Infinite Bloom.mp3
+[download] 100% of 3.91MiB in 00:00:00 at 24.14MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Infinite Bloom.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Infinite Bloom.mp3"
+[download] Downloading item 7 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620453885
+[soundcloud] 1620453885: Downloading info JSON
+[soundcloud] 1620453885: Downloading JSON metadata
+[soundcloud] 1620453885: Downloading JSON metadata
+[soundcloud] 1620453885: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Not Alone (GRiZ Remix)'
+[info] 1620453885: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Not Alone (GRiZ Remix).jpg
+[download] Destination: /home/matt/code/godlp/temp/Not Alone (GRiZ Remix).mp3
+[download] 100% of 4.40MiB in 00:00:00 at 29.72MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Not Alone (GRiZ Remix).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Not Alone (GRiZ Remix).mp3"
+[download] Downloading item 8 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454314
+[soundcloud] 1620454314: Downloading info JSON
+[soundcloud] 1620454314: Downloading JSON metadata
+[soundcloud] 1620454314: Downloading JSON metadata
+[soundcloud] 1620454314: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Spaceship (GRiZ Remix) Vs Sierra Leone'
+[info] 1620454314: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Spaceship (GRiZ Remix) Vs Sierra Leone.jpg
+[download] Destination: /home/matt/code/godlp/temp/Spaceship (GRiZ Remix) Vs Sierra Leone.mp3
+[download] 100% of 2.25MiB in 00:00:00 at 17.47MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Spaceship (GRiZ Remix) Vs Sierra Leone.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Spaceship (GRiZ Remix) Vs Sierra Leone.mp3"
+[download] Downloading item 9 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454731
+[soundcloud] 1620454731: Downloading info JSON
+[soundcloud] 1620454731: Downloading JSON metadata
+[soundcloud] 1620454731: Downloading JSON metadata
+[soundcloud] 1620454731: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Zoom'
+[info] 1620454731: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Zoom.jpg
+[download] Destination: /home/matt/code/godlp/temp/Zoom.mp3
+[download] 100% of 1.69MiB in 00:00:00 at 14.33MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Zoom.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Zoom.mp3"
+[download] Downloading item 10 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620455055
+[soundcloud] 1620455055: Downloading info JSON
+[soundcloud] 1620455055: Downloading JSON metadata
+[soundcloud] 1620455055: Downloading JSON metadata
+[soundcloud] 1620455055: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Color Of Your Soul (Bass House GRiZ Edit)'
+[info] 1620455055: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Color Of Your Soul (Bass House GRiZ Edit).jpg
+[download] Destination: /home/matt/code/godlp/temp/Color Of Your Soul (Bass House GRiZ Edit).mp3
+[download] 100% of 1.42MiB in 00:00:00 at 13.13MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Color Of Your Soul (Bass House GRiZ Edit).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Color Of Your Soul (Bass House GRiZ Edit).mp3"
+[download] Downloading item 11 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454524
+[soundcloud] 1620454524: Downloading info JSON
+[soundcloud] 1620454524: Downloading JSON metadata
+[soundcloud] 1620454524: Downloading JSON metadata
+[soundcloud] 1620454524: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Super Hot'
+[info] 1620454524: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Super Hot.jpg
+[download] Destination: /home/matt/code/godlp/temp/Super Hot.mp3
+[download] 100% of 1.52MiB in 00:00:00 at 13.77MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Super Hot.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Super Hot.mp3"
+[download] Downloading item 12 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454050
+[soundcloud] 1620454050: Downloading info JSON
+[soundcloud] 1620454050: Downloading JSON metadata
+[soundcloud] 1620454050: Downloading JSON metadata
+[soundcloud] 1620454050: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Boom Pow Vs Burial'
+[info] 1620454050: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Boom Pow Vs Burial.jpg
+[download] Destination: /home/matt/code/godlp/temp/Boom Pow Vs Burial.mp3
+[download] 100% of 1.23MiB in 00:00:00 at 10.94MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Boom Pow Vs Burial.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Boom Pow Vs Burial.mp3"
+[download] Downloading item 13 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454605
+[soundcloud] 1620454605: Downloading info JSON
+[soundcloud] 1620454605: Downloading JSON metadata
+[soundcloud] 1620454605: Downloading JSON metadata
+[soundcloud] 1620454605: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Let Him Cook'
+[info] 1620454605: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Let Him Cook.jpg
+[download] Destination: /home/matt/code/godlp/temp/Let Him Cook.mp3
+[download] 100% of 1.31MiB in 00:00:00 at 11.62MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Let Him Cook.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Let Him Cook.mp3"
+[download] Downloading item 14 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454476
+[soundcloud] 1620454476: Downloading info JSON
+[soundcloud] 1620454476: Downloading JSON metadata
+[soundcloud] 1620454476: Downloading JSON metadata
+[soundcloud] 1620454476: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Anothaaaa Dimension'
+[info] 1620454476: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Anothaaaa Dimension.jpg
+[download] Destination: /home/matt/code/godlp/temp/Anothaaaa Dimension.mp3
+[download] 100% of 687.75KiB in 00:00:00 at 6.41MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Anothaaaa Dimension.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Anothaaaa Dimension.mp3"
+[download] Downloading item 15 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454221
+[soundcloud] 1620454221: Downloading info JSON
+[soundcloud] 1620454221: Downloading JSON metadata
+[soundcloud] 1620454221: Downloading JSON metadata
+[soundcloud] 1620454221: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Who TF Is GRiZ'
+[info] 1620454221: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Who TF Is GRiZ.jpg
+[download] Destination: /home/matt/code/godlp/temp/Who TF Is GRiZ.mp3
+[download] 100% of 697.55KiB in 00:00:00 at 5.38MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Who TF Is GRiZ.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Who TF Is GRiZ.mp3"
+[download] Downloading item 16 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620453999
+[soundcloud] 1620453999: Downloading info JSON
+[soundcloud] 1620453999: Downloading JSON metadata
+[soundcloud] 1620453999: Downloading JSON metadata
+[soundcloud] 1620453999: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Feel It All (feat. Chrishira Perrier) (GRiZ Remix)'
+[info] 1620453999: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Feel It All (feat. Chrishira Perrier) (GRiZ Remix).jpg
+[download] Destination: /home/matt/code/godlp/temp/Feel It All (feat. Chrishira Perrier) (GRiZ Remix).mp3
+[download] 100% of 3.91MiB in 00:00:00 at 30.51MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Feel It All (feat. Chrishira Perrier) (GRiZ Remix).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Feel It All (feat. Chrishira Perrier) (GRiZ Remix).mp3"
+[download] Downloading item 17 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454749
+[soundcloud] 1620454749: Downloading info JSON
+[soundcloud] 1620454749: Downloading JSON metadata
+[soundcloud] 1620454749: Downloading JSON metadata
+[soundcloud] 1620454749: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Excellent Adventure - Tanaka 2 Edit - From Another Planet'
+[info] 1620454749: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Excellent Adventure - Tanaka 2 Edit - From Another Planet.jpg
+[download] Destination: /home/matt/code/godlp/temp/Excellent Adventure - Tanaka 2 Edit - From Another Planet.mp3
+[download] 100% of 3.30MiB in 00:00:00 at 23.13MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Excellent Adventure - Tanaka 2 Edit - From Another Planet.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Excellent Adventure - Tanaka 2 Edit - From Another Planet.mp3"
+[download] Downloading item 18 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454020
+[soundcloud] 1620454020: Downloading info JSON
+[soundcloud] 1620454020: Downloading JSON metadata
+[soundcloud] 1620454020: Downloading JSON metadata
+[soundcloud] 1620454020: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Glitch Hop Is Dead'
+[info] 1620454020: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Glitch Hop Is Dead.jpg
+[download] Destination: /home/matt/code/godlp/temp/Glitch Hop Is Dead.mp3
+[download] 100% of 4.04MiB in 00:00:00 at 26.77MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Glitch Hop Is Dead.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Glitch Hop Is Dead.mp3"
+[download] Downloading item 19 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454767
+[soundcloud] 1620454767: Downloading info JSON
+[soundcloud] 1620454767: Downloading JSON metadata
+[soundcloud] 1620454767: Downloading JSON metadata
+[soundcloud] 1620454767: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Rezurwrekt (Shambhala Version)'
+[info] 1620454767: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Rezurwrekt (Shambhala Version).jpg
+[download] Destination: /home/matt/code/godlp/temp/Rezurwrekt (Shambhala Version).mp3
+[download] 100% of 2.36MiB in 00:00:00 at 18.26MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Rezurwrekt (Shambhala Version).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Rezurwrekt (Shambhala Version).mp3"
+[download] Downloading item 20 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454641
+[soundcloud] 1620454641: Downloading info JSON
+[soundcloud] 1620454641: Downloading JSON metadata
+[soundcloud] 1620454641: Downloading JSON metadata
+[soundcloud] 1620454641: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Interdimensional'
+[info] 1620454641: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Interdimensional.jpg
+[download] Destination: /home/matt/code/godlp/temp/Interdimensional.mp3
+[download] 100% of 1.86MiB in 00:00:00 at 16.24MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Interdimensional.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Interdimensional.mp3"
+[download] Downloading item 21 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454161
+[soundcloud] 1620454161: Downloading info JSON
+[soundcloud] 1620454161: Downloading JSON metadata
+[soundcloud] 1620454161: Downloading JSON metadata
+[soundcloud] 1620454161: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Gametime'
+[info] 1620454161: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Gametime.jpg
+[download] Destination: /home/matt/code/godlp/temp/Gametime.mp3
+[download] 100% of 2.62MiB in 00:00:00 at 20.17MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Gametime.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Gametime.mp3"
+[download] Downloading item 22 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454275
+[soundcloud] 1620454275: Downloading info JSON
+[soundcloud] 1620454275: Downloading JSON metadata
+[soundcloud] 1620454275: Downloading JSON metadata
+[soundcloud] 1620454275: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'More Hype'
+[info] 1620454275: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/More Hype.jpg
+[download] Destination: /home/matt/code/godlp/temp/More Hype.mp3
+[download] 100% of 1.26MiB in 00:00:00 at 11.85MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/More Hype.mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/More Hype.mp3"
+[download] Downloading item 23 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620454686
+[soundcloud] 1620454686: Downloading info JSON
+[soundcloud] 1620454686: Downloading JSON metadata
+[soundcloud] 1620454686: Downloading JSON metadata
+[soundcloud] 1620454686: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Rocket Man (GRiZ Edit)'
+[info] 1620454686: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Rocket Man (GRiZ Edit).jpg
+[download] Destination: /home/matt/code/godlp/temp/Rocket Man (GRiZ Edit).mp3
+[download] 100% of 1.76MiB in 00:00:00 at 14.21MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Rocket Man (GRiZ Edit).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Rocket Man (GRiZ Edit).mp3"
+[download] Downloading item 24 of 24
+[soundcloud] Extracting URL: https://api-v2.soundcloud.com/tracks/1620455097
+[soundcloud] 1620455097: Downloading info JSON
+[soundcloud] 1620455097: Downloading JSON metadata
+[soundcloud] 1620455097: Downloading JSON metadata
+[soundcloud] 1620455097: Downloading JSON metadata
+[MetadataParser] Parsed album from '%(title)s': 'Burn Up The Floor (GRiZ DNB Edit)'
+[info] 1620455097: Downloading 1 format(s): http_mp3_128
+[info] Downloading video thumbnail original ...
+[info] Writing video thumbnail original to: /home/matt/code/godlp/temp/Burn Up The Floor (GRiZ DNB Edit).jpg
+[download] Destination: /home/matt/code/godlp/temp/Burn Up The Floor (GRiZ DNB Edit).mp3
+[download] 100% of 1.26MiB in 00:00:00 at 12.12MiB/s  
+[Metadata] Adding metadata to "/home/matt/code/godlp/temp/Burn Up The Floor (GRiZ DNB Edit).mp3"
+[EmbedThumbnail] ffmpeg: Adding thumbnail to "/home/matt/code/godlp/temp/Burn Up The Floor (GRiZ DNB Edit).mp3"
+[download] Finished downloading playlist: ID Bible (1)
+
+No album name provided. Grabbing Artist name instead.
+
+Stream GRiZ | Listen to ID Bible (1) playlist online for free on SoundCloud
+
+(function () {
+window.ddjskey = '7FC6D561817844F25B65CDD97F28A1';
+window.ddoptions = {
+ajaxListenerPath: [
+{ host: 'soundcloud.com', path: 'comments', strict: true },
+{ host: 'soundcloud.io', path: 'comments', strict: true },
+],
+overrideAbortFetch: true,
+sessionByHeader: true,
+cookieName: 'datadome',
+endpoint: 'https://dwt.soundcloud.com/js/',
+disableAutoRefreshOnCaptchaPassed: true
+};
+})();
+
+!function(){var o,a,r;function e(a){return a.test(o)}o=window.navigator.userAgent.toLowerCase();var i,t,n,s=void 0!==window.opera&&"[object Opera]"===window.opera.toString(),p=o.match(/\sopr\/([0-9]+)\./),d=e(/chrome/),c=e(/webkit/),m=!d&&e(/safari/),w=!s&&e(/msie|trident/),f=!c&&e(/gecko/);i=p?parseInt(p[1],10):(n=o.match(/(opera|chrome|safari|firefox|msie|rv:)\/?\s*(\.?\d+(\.\d+)*)/i))&&(t=o.match(/version\/([.\d]+)/i))?parseInt(t[1],10):n?parseInt(n[2],10):null;var h=e(/mobile|android|iphone|ipod|symbianos|nokia|s60|playbook|playstation/);f&&(r=(a=o.match(/(firefox)\/?\s*(\.?\d+(\.\d+)*)/i))&&a.length>1&&parseInt(a[2],10)>=47),i&&!h&&(d&&!p&&i<49||f&&!p&&!1===r||m&&i<9||w||s&&i<13||p&&i<27)&&(window.\_\_sc_abortApp=!0)}()
+
+.header{width:100%;background:var(--background-surface-color);height:46px}.sc-classic .header{background:#333}.header**logo{background:var(--background-surface-color)}.sc-classic .header**logo{background:#333}body:not(.sc-classic) .header**logoLink{display:flex;flex-direction:column;justify-content:center;align-content:center}.header**logoLink{height:46px;width:48px}.header**logoLink svg{color:var(--primary-color)}.sc-classic .header**logoLink{background:transparent url(https://a-v2.sndcdn.com/assets/images/header/brand-1b72dd8210.svg) no-repeat 0 11px;background-size:49px 22px;display:block;height:46px;width:49px;margin-right:23px}.sc-classic .header**logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud-e365a472bf.png);background-position-x:12px;background-size:48px 22px;width:69px;margin-right:unset}.sc-classic .header**logoLink svg{display:none}.header**logoLink:focus{background-color:rgba(255,72,0,.8);outline:0}#header**loading{margin:13px auto 0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.sc-classic .header\_\_logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba4606d.png)}}
+
+SoundCloud
+
+window.setTimeout((function(){if(!window.**sc_abortApp){var e=window.document.getElementById("header**loading");e&&(e.className="")}}),6e3)
+.errorPage**inner{width:580px;margin:0 auto;position:relative;padding-top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png) no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-size:20px}.errorButtons{margin-top:30px}@media (max-width:1280px){.errorPage**inner{background-size:80%}}
+
+<div class="errorPage__inner">
+<p class="errorTitle">JavaScript is disabled</p>
+<p class="errorText sc-font-light">You need to enable JavaScript to use SoundCloud</p>
+<div class="errorButtons">
+<a href="http://www.enable-javascript.com/" target="_blank" class="sc-button sc-button-medium">Show me how to enable it</a>
+</div>
+</div>
+
+<article itemscope itemtype="http://schema.org/MusicPlaylist">
+  <header>
+    <h1 itemprop="name"><a itemprop="url" href="/griz/sets/id-bible-1">ID Bible (1)</a>
+by <a href="/griz">GRiZ</a></h1>
+published on <time pubdate>2023-09-20T03:40:14Z</time>
+
+      <div itemscope itemprop="byArtist" itemtype="http://schema.org/MusicGroup"><meta itemprop="name" content="GRiZ" /><meta itemprop="url" content="/griz" /></div>
+      <div itemscope itemprop="provider" itemtype="http://schema.org/Organization"><meta itemprop="name" content="SoundCloud" /><meta itemprop="image" content="http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png" /></div>
+
+  </header>
+  <p>
+    <img src="https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-t500x500.jpg" width="" height="" alt="ID Bible (1)" itemprop="image">
+    Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com
+    <meta itemprop="description" content="Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com" />
+  </p>
+    <section class="tracklist">
+      <h2>Contains tracks</h2>
+      <meta itemprop="numTracks" content="24" />
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/supersonic">Supersonic</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:05Z</time>
+          <meta itemprop="duration" content="PT00H02M54S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/burnt-chili">Burnt Chili</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:25:26Z</time>
+          <meta itemprop="duration" content="PT00H02M06S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/womp-womp-wonky">Womp Womp Wonky</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:29Z</time>
+          <meta itemprop="duration" content="PT00H01M19S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/we-came-to-move">We Came To Move</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:10Z</time>
+          <meta itemprop="duration" content="PT00H03M15S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/dimension-expander-feat-probcause">Dimension Expander (feat. ProbCause)</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:24:47Z</time>
+          <meta itemprop="duration" content="PT00H02M27S" />
+        </article>
+    </section>
+
+  <footer>
+      <ul>
+  <li><a rel="nofollow" href="/griz/albums">Albums from this user</a></li>
+  <li><a rel="nofollow" href="/griz/sets">Playlists from this user</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/likes">Users who like ID Bible (1)</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/reposts">Users who reposted ID Bible (1)</a></li>
+</ul>
+    License: all-rights-reserved
+  </footer>
+</article>
+
+#updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-top:0}
+
+Your current browser isn't compatible with SoundCloud.
+Please download one of our supported browsers.
+Need help?
+
+Chrome
+| Firefox |
+Safari
+|
+Edge
+
+window.\_\_sc_abortApp&&(window.document.getElementById("updateBrowserMessage").style.display="block")
+
+Sorry! Something went wrong
+
+Is your network connection unstable or browser outdated?
+
+I need help
+
+function displayError(){if(!window.**sc_abortApp){var r=window.document,e=r.getElementById("error**timeout"),o=r.getElementById("header**loading");e&&o&&(e.className="errorPage**inner",o.className="sc-hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError
+
+Popular searches
+
+(function (global) {
+function OptanonWrapper() {
+var activeGroups = (global.OptanonActiveGroups || '').split(',');
+
+      if (Array.isArray(OptanonWrapper.callbacks)) {
+        for (var i = 0, max = OptanonWrapper.callbacks.length; i < max; i++) {
+          try {
+            OptanonWrapper.callbacks[i](activeGroups);
+          } catch (e) {}
+        }
+      }
+
+      OptanonWrapper.isLoaded = true;
+    };
+
+    OptanonWrapper.callbacks = [];
+    OptanonWrapper.isLoaded = false;
+
+    global.OptanonWrapper = OptanonWrapper;
+
+}(window));
+
+window.**sc_version="1706707279"
+window.**sc_hydration = [{"hydratable":"anonymousId","data":"344191-863259-705263-493242"},{"hydratable":"features","data":{"features":["mobi_webauth_oauth_mode","cd_repost_to_artists","v2_tracking_moengage_integration","v2_use_onetrust_tcfv2_us_ca","mobi_enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","mobi_use_onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","v2_use_onetrust_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_peace_ukraine_logo_takeover","mobi_use_auth_internal_analytics","v2_peace_ukraine_logo_takeover","mobi_use_onetrust_tcfv2_eu2","checkout_send_segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_creator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_with_caption","mobi_use_dwt","v2_use_onetrust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page","v2_use_onetrust_gb","use_onetrust_async","v2_signals_collection","v2_track_level_distro_to_plan_picker","v2_direct_support_link","v2_api_auth_sign_out","v2_ie11_support_end","checkout_use_new_connect","v2_hq_file_storage_release","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_stories_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","mobi_enable_2fa_config","v2_use_dwt","v2_use_updated_alert_banner_quota_upsell","v2_enable_onetrust","v2_import_playlist_experiment","v2_disable_sidebar_comments_count","v2_subhub_churn_intercept","checkout_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","fpi_messaging_drawer","v2_use_onetrust_us","v2_comment_sorting","checkout_use_recurly_with_paypal","v2_use_onetrust_tcfv2_ex_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use_onetrust_elsewhere","v2_use_onetrust_eu3","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search","v2_use_onetrust_user_id_ex_us","v2_use_new_connect","v2_use_onetrust_tcfv2_eu2","v2_next_pro_brazil_banner","v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2_repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","v2_tags_recent_tracks","mobi_use_onetrust_eu2","v2_enable_new_web_errors","v2_use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_experiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinity","v2_webauth_oauth_mode","v2_google_one_tap","v2_enable_pwa","mobi_use_hls_hack","v2_stories","v2_next_pro_referral_banner","v2_use_onetrust_user_id_eu1","v2_use_onetrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v2_enable_onetrust_tcfv2","v2_enable_tcfv2_consent_string_cache","v2_track_manager_redirection","mobi_send_segment_events_to_event_gateway","use_on_soundcloud_short_links"]}},{"hydratable":"experiments","data":{}},{"hydratable":"geoip","data":{"country_code":"US","country_name":"United States","region":"NC","city":"Raleigh","postal_code":"27607","latitude":35.797,"longitude":-78.6865}},{"hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":false,"analytics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":false,"legislation":[]}},{"hydratable":"trackingBrowserTabId","data":"ffce35"},{"hydratable":"user","data":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021","url":"/griz"}},{"hydratable":"playlist","data":{"artwork_url":"https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-large.jpg","created_at":"2023-09-20T03:40:14Z","description":"Connect with GRiZ:\nSpotify - bit.ly/1OqD9si\nInstagram - instagram.com/griz\nTwitter - twitter.com/griz\nFacebook - facebook.com/mynameisgriz\nwww.mynameisgriz.com","duration":3439569,"embeddable_by":"all","genre":"","id":1691445738,"kind":"playlist","label_name":"","last_modified":"2023-09-20T17:50:23Z","license":"all-rights-reserved","likes_count":19156,"managed_by_feeds":false,"permalink":"id-bible-1","permalink_url":"https://soundcloud.com/griz/sets/id-bible-1","public":true,"purchase_title":null,"purchase_url":null,"release_date":"2023-09-19T00:00:00Z","reposts_count":1086,"secret_token":null,"sharing":"public","tag_list":"","title":"ID Bible (1)","uri":"https://api.soundcloud.com/playlists/1691445738","user_id":110021,"set_type":"","is_album":false,"published_at":"2023-09-20T17:50:23Z","display_date":"2023-09-20T17:50:23Z","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"},"tracks":[{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":415,"created_at":"2023-09-20T03:26:05Z","description":"","downloadable":false,"download_count":0,"duration":174890,"full_duration":174890,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454383,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":10409,"permalink":"supersonic","permalink_url":"https://soundcloud.com/griz/supersonic","playback_count":331316,"public":true,"publisher_metadata":{"id":1620454383,"urn":"soundcloud:tracks:1620454383","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":305,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Supersonic","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454383","urn":"soundcloud:tracks:1620454383","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/V2N0e8PUftV8_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/hls","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/progressive","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/3e0b1f03-ee2f-4ace-8e37-cc68aa6b6000/stream/hls","preset":"opus_0_0","duration":174864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454383","station_permalink":"track-stations:1620454383","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjgzNThlNzBiLTFhYjAtNGJlZi1hZDc1LTQzZjRjNDg2MWE1ZCIsImlhdCI6MTcwNzE1NDMyMX0.DfhP_PxadDlcpfNiQMqNS1fUGMSdOjFSAA6zWt-eNX8","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":359,"created_at":"2023-09-20T03:25:26Z","description":"","downloadable":false,"download_count":0,"duration":126903,"full_duration":126903,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454089,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:54Z","license":"all-rights-reserved","likes_count":12175,"permalink":"burnt-chili","permalink_url":"https://soundcloud.com/griz/burnt-chili","playback_count":391519,"public":true,"publisher_metadata":{"id":1620454089,"urn":"soundcloud:tracks:1620454089","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":401,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Burnt Chili","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454089","urn":"soundcloud:tracks:1620454089","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/6AxMIK7ArTzP_m.json","display_date":"2023-09-20T17:50:54Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/hls","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/progressive","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/372eb871-bd0b-484c-a376-3434a3e1aae4/stream/hls","preset":"opus_0_0","duration":126864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454089","station_permalink":"track-stations:1620454089","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZiZDkwNTBhLWNmZjktNDM5MS1hMjI5LTg0OTFkZTYzNGEwOSIsImlhdCI6MTcwNzE1NDMyMX0.6nKJSR7W1Km3odXWeVrI3SiTaC77Fxw7ciYNyjTdfww","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":139,"created_at":"2023-09-20T03:26:29Z","description":"","downloadable":false,"download_count":0,"duration":79464,"full_duration":79464,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454566,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5984,"permalink":"womp-womp-wonky","permalink_url":"https://soundcloud.com/griz/womp-womp-wonky","playback_count":259211,"public":true,"publisher_metadata":{"id":1620454566,"urn":"soundcloud:tracks:1620454566","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":153,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Womp Womp Wonky","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454566","urn":"soundcloud:tracks:1620454566","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/0dRaWC5aVH5h_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/hls","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/progressive","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/4765651c-b897-439f-881c-e59d85b7b706/stream/hls","preset":"opus_0_0","duration":79443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454566","station_permalink":"track-stations:1620454566","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImI3M2Q5ZWYyLWZhZDYtNDMyMi05NjMyLTQyNTgyYzgxNmU1ZiIsImlhdCI6MTcwNzE1NDMyMX0.qIZWQdbbjQ1hGyTVD_gJNNk_EFt5kM3GZymdZMs2osY","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":171,"created_at":"2023-09-20T03:26:10Z","description":"","downloadable":false,"download_count":0,"duration":195474,"full_duration":195474,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454419,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5815,"permalink":"we-came-to-move","permalink_url":"https://soundcloud.com/griz/we-came-to-move","playback_count":244488,"public":true,"publisher_metadata":{"id":1620454419,"urn":"soundcloud:tracks:1620454419","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":170,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"We Came To Move","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454419","urn":"soundcloud:tracks:1620454419","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/2PoCMw3P8Qdm_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/hls","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/progressive","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/1110f4da-da86-44e3-bd57-81bfeb00816c/stream/hls","preset":"opus_0_0","duration":195435,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454419","station_permalink":"track-stations:1620454419","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImE0NmNjOWEyLTg0NjgtNDVmZS05MzEzLTBhODZiZjM3NjA4ZiIsImlhdCI6MTcwNzE1NDMyMX0.TuQf-E_H3H40YBL1ErKWSqYZl7h6T0LEJGWBuDtodA4","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":132,"created_at":"2023-09-20T03:24:47Z","description":"","downloadable":false,"download_count":0,"duration":147226,"full_duration":147226,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620453762,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:55Z","license":"all-rights-reserved","likes_count":5195,"permalink":"dimension-expander-feat-probcause","permalink_url":"https://soundcloud.com/griz/dimension-expander-feat-probcause","playback_count":210668,"public":true,"publisher_metadata":{"id":1620453762,"urn":"soundcloud:tracks:1620453762","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":147,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Dimension Expander (feat. ProbCause)","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620453762","urn":"soundcloud:tracks:1620453762","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/zO68IAFUUGAw_m.json","display_date":"2023-09-20T17:50:55Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/hls","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/progressive","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/1ae48eae-bdad-4e19-8faa-bd802ac947e4/stream/hls","preset":"opus_0_0","duration":147207,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620453762","station_permalink":"track-stations:1620453762","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjM1MzEyMjY2LWMzZGQtNDFjZS04OWMyLTlmZGUyMGY3MjRjYiIsImlhdCI6MTcwNzE1NDMyMX0.wGkC-HGLjDVMHbqZC1Sdx7HBt651DmjyFppSPmz1waI","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"id":1620453942,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453885,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454314,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454731,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455055,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454524,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454050,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454605,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454476,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454221,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453999,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454749,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454020,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454767,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454641,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454161,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454275,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454686,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455097,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"}],"track_count":24,"url":"/griz/sets/id-bible-1"}}];
+
+Stream GRiZ | Listen to ID Bible (1) playlist online for free on SoundCloud
+
+(function () {
+window.ddjskey = '7FC6D561817844F25B65CDD97F28A1';
+window.ddoptions = {
+ajaxListenerPath: [
+{ host: 'soundcloud.com', path: 'comments', strict: true },
+{ host: 'soundcloud.io', path: 'comments', strict: true },
+],
+overrideAbortFetch: true,
+sessionByHeader: true,
+cookieName: 'datadome',
+endpoint: 'https://dwt.soundcloud.com/js/',
+disableAutoRefreshOnCaptchaPassed: true
+};
+})();
+
+!function(){var o,a,r;function e(a){return a.test(o)}o=window.navigator.userAgent.toLowerCase();var i,t,n,s=void 0!==window.opera&&"[object Opera]"===window.opera.toString(),p=o.match(/\sopr\/([0-9]+)\./),d=e(/chrome/),c=e(/webkit/),m=!d&&e(/safari/),w=!s&&e(/msie|trident/),f=!c&&e(/gecko/);i=p?parseInt(p[1],10):(n=o.match(/(opera|chrome|safari|firefox|msie|rv:)\/?\s*(\.?\d+(\.\d+)*)/i))&&(t=o.match(/version\/([.\d]+)/i))?parseInt(t[1],10):n?parseInt(n[2],10):null;var h=e(/mobile|android|iphone|ipod|symbianos|nokia|s60|playbook|playstation/);f&&(r=(a=o.match(/(firefox)\/?\s*(\.?\d+(\.\d+)*)/i))&&a.length>1&&parseInt(a[2],10)>=47),i&&!h&&(d&&!p&&i<49||f&&!p&&!1===r||m&&i<9||w||s&&i<13||p&&i<27)&&(window.\_\_sc_abortApp=!0)}()
+
+Stream GRiZ | Listen to ID Bible (1) playlist online for free on SoundCloud
+
+(function () {
+window.ddjskey = '7FC6D561817844F25B65CDD97F28A1';
+window.ddoptions = {
+ajaxListenerPath: [
+{ host: 'soundcloud.com', path: 'comments', strict: true },
+{ host: 'soundcloud.io', path: 'comments', strict: true },
+],
+overrideAbortFetch: true,
+sessionByHeader: true,
+cookieName: 'datadome',
+endpoint: 'https://dwt.soundcloud.com/js/',
+disableAutoRefreshOnCaptchaPassed: true
+};
+})();
+
+!function(){var o,a,r;function e(a){return a.test(o)}o=window.navigator.userAgent.toLowerCase();var i,t,n,s=void 0!==window.opera&&"[object Opera]"===window.opera.toString(),p=o.match(/\sopr\/([0-9]+)\./),d=e(/chrome/),c=e(/webkit/),m=!d&&e(/safari/),w=!s&&e(/msie|trident/),f=!c&&e(/gecko/);i=p?parseInt(p[1],10):(n=o.match(/(opera|chrome|safari|firefox|msie|rv:)\/?\s*(\.?\d+(\.\d+)*)/i))&&(t=o.match(/version\/([.\d]+)/i))?parseInt(t[1],10):n?parseInt(n[2],10):null;var h=e(/mobile|android|iphone|ipod|symbianos|nokia|s60|playbook|playstation/);f&&(r=(a=o.match(/(firefox)\/?\s*(\.?\d+(\.\d+)*)/i))&&a.length>1&&parseInt(a[2],10)>=47),i&&!h&&(d&&!p&&i<49||f&&!p&&!1===r||m&&i<9||w||s&&i<13||p&&i<27)&&(window.\_\_sc_abortApp=!0)}()
+
+.header{width:100%;background:var(--background-surface-color);height:46px}.sc-classic .header{background:#333}.header**logo{background:var(--background-surface-color)}.sc-classic .header**logo{background:#333}body:not(.sc-classic) .header**logoLink{display:flex;flex-direction:column;justify-content:center;align-content:center}.header**logoLink{height:46px;width:48px}.header**logoLink svg{color:var(--primary-color)}.sc-classic .header**logoLink{background:transparent url(https://a-v2.sndcdn.com/assets/images/header/brand-1b72dd8210.svg) no-repeat 0 11px;background-size:49px 22px;display:block;height:46px;width:49px;margin-right:23px}.sc-classic .header**logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud-e365a472bf.png);background-position-x:12px;background-size:48px 22px;width:69px;margin-right:unset}.sc-classic .header**logoLink svg{display:none}.header**logoLink:focus{background-color:rgba(255,72,0,.8);outline:0}#header**loading{margin:13px auto 0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.sc-classic .header\_\_logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba4606d.png)}}
+
+SoundCloud
+
+window.setTimeout((function(){if(!window.**sc_abortApp){var e=window.document.getElementById("header**loading");e&&(e.className="")}}),6e3)
+.errorPage**inner{width:580px;margin:0 auto;position:relative;padding-top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png) no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-size:20px}.errorButtons{margin-top:30px}@media (max-width:1280px){.errorPage**inner{background-size:80%}}
+
+<div class="errorPage__inner">
+<p class="errorTitle">JavaScript is disabled</p>
+<p class="errorText sc-font-light">You need to enable JavaScript to use SoundCloud</p>
+<div class="errorButtons">
+<a href="http://www.enable-javascript.com/" target="_blank" class="sc-button sc-button-medium">Show me how to enable it</a>
+</div>
+</div>
+
+<article itemscope itemtype="http://schema.org/MusicPlaylist">
+  <header>
+    <h1 itemprop="name"><a itemprop="url" href="/griz/sets/id-bible-1">ID Bible (1)</a>
+by <a href="/griz">GRiZ</a></h1>
+published on <time pubdate>2023-09-20T03:40:14Z</time>
+
+      <div itemscope itemprop="byArtist" itemtype="http://schema.org/MusicGroup"><meta itemprop="name" content="GRiZ" /><meta itemprop="url" content="/griz" /></div>
+      <div itemscope itemprop="provider" itemtype="http://schema.org/Organization"><meta itemprop="name" content="SoundCloud" /><meta itemprop="image" content="http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png" /></div>
+
+  </header>
+  <p>
+    <img src="https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-t500x500.jpg" width="" height="" alt="ID Bible (1)" itemprop="image">
+    Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com
+    <meta itemprop="description" content="Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com" />
+  </p>
+    <section class="tracklist">
+      <h2>Contains tracks</h2>
+      <meta itemprop="numTracks" content="24" />
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/supersonic">Supersonic</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:05Z</time>
+          <meta itemprop="duration" content="PT00H02M54S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/burnt-chili">Burnt Chili</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:25:26Z</time>
+          <meta itemprop="duration" content="PT00H02M06S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/womp-womp-wonky">Womp Womp Wonky</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:29Z</time>
+          tem<meta itemprop="duration" content="PT00H01M19S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/we-came-to-move">We Came To Move</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:10Z</time>
+          <meta itemprop="duration" content="PT00H03M15S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/dimension-expander-feat-probcause">Dimension Expander (feat. ProbCause)</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:24:47Z</time>
+          <meta itemprop="duration" content="PT00H02M27S" />
+        </article>
+    </section>
+
+  <footer>
+      <ul>
+  <li><a rel="nofollow" href="/griz/albums">Albums from this user</a></li>
+  <li><a rel="nofollow" href="/griz/sets">Playlists from this user</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/likes">Users who like ID Bible (1)</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/reposts">Users who reposted ID Bible (1)</a></li>
+</ul>
+    License: all-rights-reserved
+  </footer>
+</article>
+
+#updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-top:0}
+
+Your current browser isn't compatible with SoundCloud.
+Please download one of our supported browsers.
+Need help?
+
+Chrome
+| Firefox |
+Safari
+|
+Edge
+
+window.\_\_sc_abortApp&&(window.document.getElementById("updateBrowserMessage").style.display="block")
+
+Sorry! Something went wrong
+
+Is your network connection unstable or browser outdated?
+
+I need help
+
+function displayError(){if(!window.**sc_abortApp){var r=window.document,e=r.getElementById("error**timeout"),o=r.getElementById("header**loading");e&&o&&(e.className="errorPage**inner",o.className="sc-hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError
+
+Popular searches
+
+(function (global) {
+function OptanonWrapper() {
+var activeGroups = (global.OptanonActiveGroups || '').split(',');
+
+      if (Array.isArray(OptanonWrapper.callbacks)) {
+        for (var i = 0, max = OptanonWrapper.callbacks.length; i < max; i++) {
+          try {
+            OptanonWrapper.callbacks[i](activeGroups);
+          } catch (e) {}
+        }
+      }
+
+      OptanonWrapper.isLoaded = true;
+    };
+
+    OptanonWrapper.callbacks = [];
+    OptanonWrapper.isLoaded = false;
+
+    global.OptanonWrapper = OptanonWrapper;
+
+}(window));
+
+window.**sc_version="1706707279"
+window.**sc_hydration = [{"hydratable":"anonymousId","data":"344191-863259-705263-493242"},{"hydratable":"features","data":{"features":["mobi_webauth_oauth_mode","cd_repost_to_artists","v2_tracking_moengage_integration","v2_use_onetrust_tcfv2_us_ca","mobi_enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","mobi_use_onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","v2_use_onetrust_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_peace_ukraine_logo_takeover","mobi_use_auth_internal_analytics","v2_peace_ukraine_logo_takeover","mobi_use_onetrust_tcfv2_eu2","checkout_send_segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_creator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_with_caption","mobi_use_dwt","v2_use_onetrust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page","v2_use_onetrust_gb","use_onetrust_async","v2_signals_collection","v2_track_level_distro_to_plan_picker","v2_direct_support_link","v2_api_auth_sign_out","v2_ie11_support_end","checkout_use_new_connect","v2_hq_file_storage_release","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_stories_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","mobi_enable_2fa_config","v2_use_dwt","v2_use_updated_alert_banner_quota_upsell","v2_enable_onetrust","v2_import_playlist_experiment","v2_disable_sidebar_comments_count","v2_subhub_churn_intercept","checkout_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","fpi_messaging_drawer","v2_use_onetrust_us","v2_comment_sorting","checkout_use_recurly_with_paypal","v2_use_onetrust_tcfv2_ex_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use_onetrust_elsewhere","v2_use_onetrust_eu3","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search","v2_use_onetrust_user_id_ex_us","v2_use_new_connect","v2_use_onetrust_tcfv2_eu2","v2_next_pro_brazil_banner","v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2_repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","v2_tags_recent_tracks","mobi_use_onetrust_eu2","v2_enable_new_web_errors","v2_use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_experiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinity","v2_webauth_oauth_mode","v2_google_one_tap","v2_enable_pwa","mobi_use_hls_hack","v2_stories","v2_next_pro_referral_banner","v2_use_onetrust_user_id_eu1","v2_use_onetrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v2_enable_onetrust_tcfv2","v2_enable_tcfv2_consent_string_cache","v2_track_manager_redirection","mobi_send_segment_events_to_event_gateway","use_on_soundcloud_short_links"]}},{"hydratable":"experiments","data":{}},{"hydratable":"geoip","data":{"country_code":"US","country_name":"United States","region":"NC","city":"Raleigh","postal_code":"27607","latitude":35.797,"longitude":-78.6865}},{"hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":false,"analytics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":false,"legislation":[]}},{"hydratable":"trackingBrowserTabId","data":"ffce35"},{"hydratable":"user","data":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021","url":"/griz"}},{"hydratable":"playlist","data":{"artwork_url":"https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-large.jpg","created_at":"2023-09-20T03:40:14Z","description":"Connect with GRiZ:\nSpotify - bit.ly/1OqD9si\nInstagram - instagram.com/griz\nTwitter - twitter.com/griz\nFacebook - facebook.com/mynameisgriz\nwww.mynameisgriz.com","duration":3439569,"embeddable_by":"all","genre":"","id":1691445738,"kind":"playlist","label_name":"","last_modified":"2023-09-20T17:50:23Z","license":"all-rights-reserved","likes_count":19156,"managed_by_feeds":false,"permalink":"id-bible-1","permalink_url":"https://soundcloud.com/griz/sets/id-bible-1","public":true,"purchase_title":null,"purchase_url":null,"release_date":"2023-09-19T00:00:00Z","reposts_count":1086,"secret_token":null,"sharing":"public","tag_list":"","title":"ID Bible (1)","uri":"https://api.soundcloud.com/playlists/1691445738","user_id":110021,"set_type":"","is_album":false,"published_at":"2023-09-20T17:50:23Z","display_date":"2023-09-20T17:50:23Z","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"},"tracks":[{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":415,"created_at":"2023-09-20T03:26:05Z","description":"","downloadable":false,"download_count":0,"duration":174890,"full_duration":174890,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454383,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":10409,"permalink":"supersonic","permalink_url":"https://soundcloud.com/griz/supersonic","playback_count":331316,"public":true,"publisher_metadata":{"id":1620454383,"urn":"soundcloud:tracks:1620454383","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":305,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Supersonic","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454383","urn":"soundcloud:tracks:1620454383","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/V2N0e8PUftV8_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/hls","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/progressive","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/3e0b1f03-ee2f-4ace-8e37-cc68aa6b6000/stream/hls","preset":"opus_0_0","duration":174864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454383","station_permalink":"track-stations:1620454383","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjgzNThlNzBiLTFhYjAtNGJlZi1hZDc1LTQzZjRjNDg2MWE1ZCIsImlhdCI6MTcwNzE1NDMyMX0.DfhP_PxadDlcpfNiQMqNS1fUGMSdOjFSAA6zWt-eNX8","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":359,"created_at":"2023-09-20T03:25:26Z","description":"","downloadable":false,"download_count":0,"duration":126903,"full_duration":126903,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454089,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:54Z","license":"all-rights-reserved","likes_count":12175,"permalink":"burnt-chili","permalink_url":"https://soundcloud.com/griz/burnt-chili","playback_count":391519,"public":true,"publisher_metadata":{"id":1620454089,"urn":"soundcloud:tracks:1620454089","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":401,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Burnt Chili","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454089","urn":"soundcloud:tracks:1620454089","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/6AxMIK7ArTzP_m.json","display_date":"2023-09-20T17:50:54Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/hls","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/progressive","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/372eb871-bd0b-484c-a376-3434a3e1aae4/stream/hls","preset":"opus_0_0","duration":126864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454089","station_permalink":"track-stations:1620454089","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZiZDkwNTBhLWNmZjktNDM5MS1hMjI5LTg0OTFkZTYzNGEwOSIsImlhdCI6MTcwNzE1NDMyMX0.6nKJSR7W1Km3odXWeVrI3SiTaC77Fxw7ciYNyjTdfww","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":139,"created_at":"2023-09-20T03:26:29Z","description":"","downloadable":false,"download_count":0,"duration":79464,"full_duration":79464,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454566,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5984,"permalink":"womp-womp-wonky","permalink_url":"https://soundcloud.com/griz/womp-womp-wonky","playback_count":259211,"public":true,"publisher_metadata":{"id":1620454566,"urn":"soundcloud:tracks:1620454566","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":153,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Womp Womp Wonky","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454566","urn":"soundcloud:tracks:1620454566","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/0dRaWC5aVH5h_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/hls","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/progressive","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/4765651c-b897-439f-881c-e59d85b7b706/stream/hls","preset":"opus_0_0","duration":79443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454566","station_permalink":"track-stations:1620454566","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImI3M2Q5ZWYyLWZhZDYtNDMyMi05NjMyLTQyNTgyYzgxNmU1ZiIsImlhdCI6MTcwNzE1NDMyMX0.qIZWQdbbjQ1hGyTVD_gJNNk_EFt5kM3GZymdZMs2osY","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":171,"created_at":"2023-09-20T03:26:10Z","description":"","downloadable":false,"download_count":0,"duration":195474,"full_duration":195474,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454419,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5815,"permalink":"we-came-to-move","permalink_url":"https://soundcloud.com/griz/we-came-to-move","playback_count":244488,"public":true,"publisher_metadata":{"id":1620454419,"urn":"soundcloud:tracks:1620454419","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":170,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"We Came To Move","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454419","urn":"soundcloud:tracks:1620454419","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/2PoCMw3P8Qdm_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/hls","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/progressive","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/1110f4da-da86-44e3-bd57-81bfeb00816c/stream/hls","preset":"opus_0_0","duration":195435,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454419","station_permalink":"track-stations:1620454419","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImE0NmNjOWEyLTg0NjgtNDVmZS05MzEzLTBhODZiZjM3NjA4ZiIsImlhdCI6MTcwNzE1NDMyMX0.TuQf-E_H3H40YBL1ErKWSqYZl7h6T0LEJGWBuDtodA4","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":132,"created_at":"2023-09-20T03:24:47Z","description":"","downloadable":false,"download_count":0,"duration":147226,"full_duration":147226,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620453762,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:55Z","license":"all-rights-reserved","likes_count":5195,"permalink":"dimension-expander-feat-probcause","permalink_url":"https://soundcloud.com/griz/dimension-expander-feat-probcause","playback_count":210668,"public":true,"publisher_metadata":{"id":1620453762,"urn":"soundcloud:tracks:1620453762","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":147,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Dimension Expander (feat. ProbCause)","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620453762","urn":"soundcloud:tracks:1620453762","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/zO68IAFUUGAw_m.json","display_date":"2023-09-20T17:50:55Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/hls","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/progressive","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/1ae48eae-bdad-4e19-8faa-bd802ac947e4/stream/hls","preset":"opus_0_0","duration":147207,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620453762","station_permalink":"track-stations:1620453762","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjM1MzEyMjY2LWMzZGQtNDFjZS04OWMyLTlmZGUyMGY3MjRjYiIsImlhdCI6MTcwNzE1NDMyMX0.wGkC-HGLjDVMHbqZC1Sdx7HBt651DmjyFppSPmz1waI","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"id":1620453942,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453885,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454314,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454731,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455055,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454524,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454050,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454605,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454476,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454221,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453999,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454749,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454020,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454767,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454641,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454161,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454275,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454686,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455097,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"}],"track_count":24,"url":"/griz/sets/id-bible-1"}}];
+
+.header{width:100%;background:var(--background-surface-color);height:46px}.sc-classic .header{background:#333}.header**logo{background:var(--background-surface-color)}.sc-classic .header**logo{background:#333}body:not(.sc-classic) .header**logoLink{display:flex;flex-direction:column;justify-content:center;align-content:center}.header**logoLink{height:46px;width:48px}.header**logoLink svg{color:var(--primary-color)}.sc-classic .header**logoLink{background:transparent url(https://a-v2.sndcdn.com/assets/images/header/brand-1b72dd8210.svg) no-repeat 0 11px;background-size:49px 22px;display:block;height:46px;width:49px;margin-right:23px}.sc-classic .header**logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud-e365a472bf.png);background-position-x:12px;background-size:48px 22px;width:69px;margin-right:unset}.sc-classic .header**logoLink svg{display:none}.header**logoLink:focus{background-color:rgba(255,72,0,.8);outline:0}#header**loading{margin:13px auto 0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.sc-classic .header\_\_logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba4606d.png)}}
+
+SoundCloud
+
+window.setTimeout((function(){if(!window.**sc_abortApp){var e=window.document.getElementById("header**loading");e&&(e.className="")}}),6e3)
+.errorPage**inner{width:580px;margin:0 auto;position:relative;padding-top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png) no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-size:20px}.errorButtons{margin-top:30px}@media (max-width:1280px){.errorPage**inner{background-size:80%}}
+
+<div class="errorPage__inner">
+<p class="errorTitle">JavaScript is disabled</p>
+<p class="errorText sc-font-light">You need to enable JavaScript to use SoundCloud</p>
+<div class="errorButtons">
+<a href="http://www.enable-javascript.com/" target="_blank" class="sc-button sc-button-medium">Show me how to enable it</a>
+</div>
+</div>
+
+<article itemscope itemtype="http://schema.org/MusicPlaylist">
+  <header>
+    <h1 itemprop="name"><a itemprop="url" href="/griz/sets/id-bible-1">ID Bible (1)</a>
+by <a href="/griz">GRiZ</a></h1>
+published on <time pubdate>2023-09-20T03:40:14Z</time>
+
+      <div itemscope itemprop="byArtist" itemtype="http://schema.org/MusicGroup"><meta itemprop="name" content="GRiZ" /><meta itemprop="url" content="/griz" /></div>
+      <div itemscope itemprop="provider" itemtype="http://schema.org/Organization"><meta itemprop="name" content="SoundCloud" /><meta itemprop="image" content="http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png" /></div>
+
+  </header>
+  <p>
+    <img src="https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-t500x500.jpg" width="" height="" alt="ID Bible (1)" itemprop="image">
+    Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com
+    <meta itemprop="description" content="Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com" />
+  </p>
+    <section class="tracklist">
+      <h2>Contains tracks</h2>
+      <meta itemprop="numTracks" content="24" />
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/supersonic">Supersonic</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:05Z</time>
+          <meta itemprop="duration" content="PT00H02M54S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/burnt-chili">Burnt Chili</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:25:26Z</time>
+          <meta itemprop="duration" content="PT00H02M06S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/womp-womp-wonky">Womp Womp Wonky</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:29Z</time>
+          <meta itemprop="duration" content="PT00H01M19S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/we-came-to-move">We Came To Move</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:10Z</time>
+          <meta itemprop="duration" content="PT00H03M15S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/dimension-expander-feat-probcause">Dimension Expander (feat. ProbCause)</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:24:47Z</time>
+          <meta itemprop="duration" content="PT00H02M27S" />
+        </article>
+    </section>
+
+  <footer>
+      <ul>
+  <li><a rel="nofollow" href="/griz/albums">Albums from this user</a></li>
+  <li><a rel="nofollow" href="/griz/sets">Playlists from this user</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/likes">Users who like ID Bible (1)</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/reposts">Users who reposted ID Bible (1)</a></li>
+</ul>
+    License: all-rights-reserved
+  </footer>
+</article>
+
+#updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-top:0}
+
+Your current browser isn't compatible with SoundCloud.
+Please download one of our supported browsers.
+Need help?
+
+Chrome
+| Firefox |
+Safari
+|
+Edge
+
+window.\_\_sc_abortApp&&(window.document.getElementById("updateBrowserMessage").style.display="block")
+
+Sorry! Something went wrong
+
+Is your network connection unstable or browser outdated?
+
+I need help
+
+function displayError(){if(!window.**sc_abortApp){var r=window.document,e=r.getElementById("error**timeout"),o=r.getElementById("header**loading");e&&o&&(e.className="errorPage**inner",o.className="sc-hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError
+
+Popular searches
+
+.header{width:100%;background:var(--background-surface-color);height:46px}.sc-classic .header{background:#333}.header**logo{background:var(--background-surface-color)}.sc-classic .header**logo{background:#333}body:not(.sc-classic) .header**logoLink{display:flex;flex-direction:column;justify-content:center;align-content:center}.header**logoLink{height:46px;width:48px}.header**logoLink svg{color:var(--primary-color)}.sc-classic .header**logoLink{background:transparent url(https://a-v2.sndcdn.com/assets/images/header/brand-1b72dd8210.svg) no-repeat 0 11px;background-size:49px 22px;display:block;height:46px;width:49px;margin-right:23px}.sc-classic .header**logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud-e365a472bf.png);background-position-x:12px;background-size:48px 22px;width:69px;margin-right:unset}.sc-classic .header**logoLink svg{display:none}.header**logoLink:focus{background-color:rgba(255,72,0,.8);outline:0}#header**loading{margin:13px auto 0;width:16px;background:url(https://a-v2.sndcdn.com/assets/images/loader-dark-45940ae3d4.gif) center no-repeat;background-size:16px 16px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){.sc-classic .header\_\_logoLink{background-image:url(https://a-v2.sndcdn.com/assets/images/header/cloud@2x-e5fba4606d.png)}}
+
+SoundCloud
+
+SoundCloud
+
+SoundCloud
+
+SoundCloud
+
+SoundCloud
+
+window.setTimeout((function(){if(!window.**sc_abortApp){var e=window.document.getElementById("header**loading");e&&(e.className="")}}),6e3)
+.errorPage**inner{width:580px;margin:0 auto;position:relative;padding-top:460px;background:url(https://a-v2.sndcdn.com/assets/images/errors/500-e5a180b7a8.png) no-repeat 50% 80px;text-align:center;transition:all 1s linear}.errorTitle{margin-bottom:10px;font-size:30px}.errorText{line-height:28px;color:#666;font-size:20px}.errorButtons{margin-top:30px}@media (max-width:1280px){.errorPage**inner{background-size:80%}}
+
+<div class="errorPage__inner">
+<p class="errorTitle">JavaScript is disabled</p>
+<p class="errorText sc-font-light">You need to enable JavaScript to use SoundCloud</p>
+<div class="errorButtons">
+<a href="http://www.enable-javascript.com/" target="_blank" class="sc-button sc-button-medium">Show me how to enable it</a>
+</div>
+</div>
+
+<article itemscope itemtype="http://schema.org/MusicPlaylist">
+  <header>
+    <h1 itemprop="name"><a itemprop="url" href="/griz/sets/id-bible-1">ID Bible (1)</a>
+by <a href="/griz">GRiZ</a></h1>
+published on <time pubdate>2023-09-20T03:40:14Z</time>
+
+      <div itemscope itemprop="byArtist" itemtype="http://schema.org/MusicGroup"><meta itemprop="name" content="GRiZ" /><meta itemprop="url" content="/griz" /></div>
+      <div itemscope itemprop="provider" itemtype="http://schema.org/Organization"><meta itemprop="name" content="SoundCloud" /><meta itemprop="image" content="http://developers.soundcloud.com/assets/logo_white-8bf7615eb575eeb114fc65323068e1e4.png" /></div>
+
+  </header>
+  <p>
+    <img src="https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-t500x500.jpg" width="" height="" alt="ID Bible (1)" itemprop="image">
+    Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com
+    <meta itemprop="description" content="Connect with GRiZ:
+Spotify - bit.ly/1OqD9si
+Instagram - instagram.com/griz
+Twitter - twitter.com/griz
+Facebook - facebook.com/mynameisgriz
+www.mynameisgriz.com" />
+  </p>
+    <section class="tracklist">
+      <h2>Contains tracks</h2>
+      <meta itemprop="numTracks" content="24" />
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/supersonic">Supersonic</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:05Z</time>
+          <meta itemprop="duration" content="PT00H02M54S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/burnt-chili">Burnt Chili</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:25:26Z</time>
+          <meta itemprop="duration" content="PT00H02M06S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/womp-womp-wonky">Womp Womp Wonky</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:29Z</time>
+          <meta itemprop="duration" content="PT00H01M19S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/we-came-to-move">We Came To Move</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:26:10Z</time>
+          <meta itemprop="duration" content="PT00H03M15S" />
+        </article>
+        <article itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
+          <h2 itemprop="name"><a itemprop="url" href="/griz/dimension-expander-feat-probcause">Dimension Expander (feat. ProbCause)</a>
+by <a href="/griz">GRiZ</a></h2>
+published on <time pubdate>2023-09-20T03:24:47Z</time>
+          <meta itemprop="duration" content="PT00H02M27S" />
+        </article>
+    </section>
+
+  <footer>
+      <ul>
+  <li><a rel="nofollow" href="/griz/albums">Albums from this user</a></li>
+  <li><a rel="nofollow" href="/griz/sets">Playlists from this user</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/likes">Users who like ID Bible (1)</a></li>
+  <li><a rel="nofollow" href="/griz/id-bible-1/reposts">Users who reposted ID Bible (1)</a></li>
+</ul>
+    License: all-rights-reserved
+  </footer>
+</article>
+
+#updateBrowserMessage{width:600px;margin:0 auto;position:relative;padding-top:410px;background:url(https://a-v2.sndcdn.com/assets/images/errors/browser-9cdd4e6df7.png) no-repeat 50% 130px;text-align:center;display:none}#updateBrowserMessage .messageText{line-height:26px;font-size:20px;margin-bottom:5px}#updateBrowserMessage .downloadLinks{margin-top:0}
+
+Your current browser isn't compatible with SoundCloud.
+Please download one of our supported browsers.
+Need help?
+
+Chrome
+| Firefox |
+Safari
+|
+Edge
+
+Your current browser isn't compatible with SoundCloud.
+Please download one of our supported browsers.
+Need help?
+
+Need help?
+
+Chrome
+| Firefox |
+Safari
+|
+Edge
+
+Chrome
+Firefox
+Safari
+Edge
+window.\_\_sc_abortApp&&(window.document.getElementById("updateBrowserMessage").style.display="block")
+
+Sorry! Something went wrong
+
+Is your network connection unstable or browser outdated?
+
+I need help
+
+Sorry! Something went wrong
+
+Is your network connection unstable or browser outdated?
+
+Is your network connection unstable or browser outdated?
+
+I need help
+
+I need help
+function displayError(){if(!window.**sc_abortApp){var r=window.document,e=r.getElementById("error**timeout"),o=r.getElementById("header**loading");e&&o&&(e.className="errorPage**inner",o.className="sc-hidden")}}window.setTimeout(displayError,15e3),window.onerror=displayError
+
+Popular searches
+
+Popular searches
+
+(function (global) {
+function OptanonWrapper() {
+var activeGroups = (global.OptanonActiveGroups || '').split(',');
+
+      if (Array.isArray(OptanonWrapper.callbacks)) {
+        for (var i = 0, max = OptanonWrapper.callbacks.length; i < max; i++) {
+          try {
+            OptanonWrapper.callbacks[i](activeGroups);
+          } catch (e) {}
+        }
+      }
+
+      OptanonWrapper.isLoaded = true;
+    };
+
+    OptanonWrapper.callbacks = [];
+    OptanonWrapper.isLoaded = false;
+
+    global.OptanonWrapper = OptanonWrapper;
+
+}(window));
+
+window.**sc_version="1706707279"
+window.**sc_hydration = [{"hydratable":"anonymousId","data":"344191-863259-705263-493242"},{"hydratable":"features","data":{"features":["mobi_webauth_oauth_mode","cd_repost_to_artists","v2_tracking_moengage_integration","v2_use_onetrust_tcfv2_us_ca","mobi_enable_onetrust_tcfv2","mobi_tracking_send_session_id","mobi_use_onetrust_eu1","mobi_use_onetrust_gb","mobi_use_onetrust_tcfv2_us_ca","v2_use_onetrust_user_id_eu2","v2_enable_sourcepoint_tcfv2","mobi_peace_ukraine_logo_takeover","mobi_use_auth_internal_analytics","v2_peace_ukraine_logo_takeover","mobi_use_onetrust_tcfv2_eu2","checkout_send_segment_events_to_event_gateway","mobi_use_onetrust_user_id_eu1","trolley","v2_nigeria_creator_banner","mobi_use_onetrust_user_id_ex_us","mobi_use_onetrust_tcfv2_eu1","v2_post_with_caption","mobi_use_dwt","v2_use_onetrust_tcfv2_eu1","mobi_use_onetrust_eu4","featured_artists_banner","v2_repost_redirect_page","v2_use_onetrust_gb","use_onetrust_async","v2_signals_collection","v2_track_level_distro_to_plan_picker","v2_direct_support_link","v2_api_auth_sign_out","v2_ie11_support_end","checkout_use_new_connect","v2_hq_file_storage_release","creator_plan_names_repositioning","v2_use_onetrust_eu4","v2_stories_onboarding","mobi_use_onetrust_user_id_eu2","mobi_tracking_moengage_integration","mobi_enable_2fa_config","v2_use_dwt","v2_use_updated_alert_banner_quota_upsell","v2_enable_onetrust","v2_import_playlist_experiment","v2_disable_sidebar_comments_count","v2_subhub_churn_intercept","checkout_use_new_plan_picker","v2_signage_on_home","v2_use_onetrust_eu2","next_pro_first_fans","fpi_messaging_drawer","v2_use_onetrust_us","v2_comment_sorting","checkout_use_recurly_with_paypal","v2_use_onetrust_tcfv2_ex_us","v2_show_for_artists_link","mobi_use_onetrust_eu3","mobi_use_onetrust_elsewhere","v2_use_onetrust_eu3","mobi_use_onetrust_us","v2_oscp_german_tax_fields_support","v2_fallback_queue_for_search","v2_use_onetrust_user_id_ex_us","v2_use_new_connect","v2_use_onetrust_tcfv2_eu2","v2_next_pro_brazil_banner","v2_send_segment_events_to_event_gateway","v2_use_onetrust_eu1","v2_enable_sourcepoint","v2_repost_with_caption_graphql","mobi_use_onetrust_tcfv2_ex_us","v2_tags_recent_tracks","mobi_use_onetrust_eu2","v2_enable_new_web_errors","v2_use_onetrust_elsewhere","checkout_use_dwt","v2_webauth_use_local_tracking","mobi_sign_in_experiment","mobi_enable_onetrust","v2_can_see_insights","fpi_20_fans_rollout","mobi_trinity","v2_webauth_oauth_mode","v2_google_one_tap","v2_enable_pwa","mobi_use_hls_hack","v2_stories","v2_next_pro_referral_banner","v2_use_onetrust_user_id_eu1","v2_use_onetrust_user_id_global","use_recurly_checkout","v2_show_side_by_side_upsell_experience","v2_enable_onetrust_tcfv2","v2_enable_tcfv2_consent_string_cache","v2_track_manager_redirection","mobi_send_segment_events_to_event_gateway","use_on_soundcloud_short_links"]}},{"hydratable":"experiments","data":{}},{"hydratable":"geoip","data":{"country_code":"US","country_name":"United States","region":"NC","city":"Raleigh","postal_code":"27607","latitude":35.797,"longitude":-78.6865}},{"hydratable":"privacySettings","data":{"allows_messages_from_unfollowed_users":false,"analytics_opt_in":true,"communications_opt_in":true,"targeted_advertising_opt_in":false,"legislation":[]}},{"hydratable":"trackingBrowserTabId","data":"ffce35"},{"hydratable":"user","data":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021","url":"/griz"}},{"hydratable":"playlist","data":{"artwork_url":"https://i1.sndcdn.com/artworks-fdEfFNyVbZs578Gv-ARb9cA-large.jpg","created_at":"2023-09-20T03:40:14Z","description":"Connect with GRiZ:\nSpotify - bit.ly/1OqD9si\nInstagram - instagram.com/griz\nTwitter - twitter.com/griz\nFacebook - facebook.com/mynameisgriz\nwww.mynameisgriz.com","duration":3439569,"embeddable_by":"all","genre":"","id":1691445738,"kind":"playlist","label_name":"","last_modified":"2023-09-20T17:50:23Z","license":"all-rights-reserved","likes_count":19156,"managed_by_feeds":false,"permalink":"id-bible-1","permalink_url":"https://soundcloud.com/griz/sets/id-bible-1","public":true,"purchase_title":null,"purchase_url":null,"release_date":"2023-09-19T00:00:00Z","reposts_count":1086,"secret_token":null,"sharing":"public","tag_list":"","title":"ID Bible (1)","uri":"https://api.soundcloud.com/playlists/1691445738","user_id":110021,"set_type":"","is_album":false,"published_at":"2023-09-20T17:50:23Z","display_date":"2023-09-20T17:50:23Z","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","city":"Detroit","comments_count":0,"country_code":"US","created_at":"2009-04-30T08:08:55Z","creator_subscriptions":[{"product":{"id":"creator-pro-unlimited"}}],"creator_subscription":{"product":{"id":"creator-pro-unlimited"}},"description":"Find me on Insta / Twitter / Facebook and say whattup!\n#ShowLoveSpreadLove\n\n\u003c3 GRiZ","followers_count":435056,"followings_count":140,"first_name":"MAD☩LiBERATOR","full_name":"MAD☩LiBERATOR","groups_count":0,"id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","likes_count":1108,"playlist_likes_count":22,"permalink":"griz","permalink_url":"https://soundcloud.com/griz","playlist_count":27,"reposts_count":null,"track_count":202,"uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"visuals":{"urn":"soundcloud:users:110021","enabled":true,"visuals":[{"urn":"soundcloud:visuals:141082068","entry_time":0,"visual_url":"https://i1.sndcdn.com/visuals-000000110021-9PZu0L-original.jpg"}],"tracking":null},"badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"},"tracks":[{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":415,"created_at":"2023-09-20T03:26:05Z","description":"","downloadable":false,"download_count":0,"duration":174890,"full_duration":174890,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454383,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":10409,"permalink":"supersonic","permalink_url":"https://soundcloud.com/griz/supersonic","playback_count":331316,"public":true,"publisher_metadata":{"id":1620454383,"urn":"soundcloud:tracks:1620454383","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":305,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Supersonic","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454383","urn":"soundcloud:tracks:1620454383","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/V2N0e8PUftV8_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/hls","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/c371ada2-469c-47bf-935d-98cc08da2a08/stream/progressive","preset":"mp3_1_0","duration":174890,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454383/3e0b1f03-ee2f-4ace-8e37-cc68aa6b6000/stream/hls","preset":"opus_0_0","duration":174864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454383","station_permalink":"track-stations:1620454383","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjgzNThlNzBiLTFhYjAtNGJlZi1hZDc1LTQzZjRjNDg2MWE1ZCIsImlhdCI6MTcwNzE1NDMyMX0.DfhP_PxadDlcpfNiQMqNS1fUGMSdOjFSAA6zWt-eNX8","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":359,"created_at":"2023-09-20T03:25:26Z","description":"","downloadable":false,"download_count":0,"duration":126903,"full_duration":126903,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454089,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:54Z","license":"all-rights-reserved","likes_count":12175,"permalink":"burnt-chili","permalink_url":"https://soundcloud.com/griz/burnt-chili","playback_count":391519,"public":true,"publisher_metadata":{"id":1620454089,"urn":"soundcloud:tracks:1620454089","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":401,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Burnt Chili","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454089","urn":"soundcloud:tracks:1620454089","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/6AxMIK7ArTzP_m.json","display_date":"2023-09-20T17:50:54Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/hls","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/fe31a05f-2c5c-4173-9f7f-bf39b9465b9d/stream/progressive","preset":"mp3_1_0","duration":126903,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454089/372eb871-bd0b-484c-a376-3434a3e1aae4/stream/hls","preset":"opus_0_0","duration":126864,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454089","station_permalink":"track-stations:1620454089","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImZiZDkwNTBhLWNmZjktNDM5MS1hMjI5LTg0OTFkZTYzNGEwOSIsImlhdCI6MTcwNzE1NDMyMX0.6nKJSR7W1Km3odXWeVrI3SiTaC77Fxw7ciYNyjTdfww","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":139,"created_at":"2023-09-20T03:26:29Z","description":"","downloadable":false,"download_count":0,"duration":79464,"full_duration":79464,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454566,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5984,"permalink":"womp-womp-wonky","permalink_url":"https://soundcloud.com/griz/womp-womp-wonky","playback_count":259211,"public":true,"publisher_metadata":{"id":1620454566,"urn":"soundcloud:tracks:1620454566","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":153,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Womp Womp Wonky","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454566","urn":"soundcloud:tracks:1620454566","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/0dRaWC5aVH5h_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/hls","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/caefd152-5df7-4cdd-9285-70b27d421fae/stream/progressive","preset":"mp3_1_0","duration":79464,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454566/4765651c-b897-439f-881c-e59d85b7b706/stream/hls","preset":"opus_0_0","duration":79443,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454566","station_permalink":"track-stations:1620454566","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImI3M2Q5ZWYyLWZhZDYtNDMyMi05NjMyLTQyNTgyYzgxNmU1ZiIsImlhdCI6MTcwNzE1NDMyMX0.qIZWQdbbjQ1hGyTVD_gJNNk_EFt5kM3GZymdZMs2osY","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":171,"created_at":"2023-09-20T03:26:10Z","description":"","downloadable":false,"download_count":0,"duration":195474,"full_duration":195474,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620454419,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:53Z","license":"all-rights-reserved","likes_count":5815,"permalink":"we-came-to-move","permalink_url":"https://soundcloud.com/griz/we-came-to-move","playback_count":244488,"public":true,"publisher_metadata":{"id":1620454419,"urn":"soundcloud:tracks:1620454419","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":170,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"We Came To Move","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620454419","urn":"soundcloud:tracks:1620454419","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/2PoCMw3P8Qdm_m.json","display_date":"2023-09-20T17:50:53Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/hls","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/abfca552-1aae-4589-bb70-4355de25a861/stream/progressive","preset":"mp3_1_0","duration":195474,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620454419/1110f4da-da86-44e3-bd57-81bfeb00816c/stream/hls","preset":"opus_0_0","duration":195435,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620454419","station_permalink":"track-stations:1620454419","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6ImE0NmNjOWEyLTg0NjgtNDVmZS05MzEzLTBhODZiZjM3NjA4ZiIsImlhdCI6MTcwNzE1NDMyMX0.TuQf-E_H3H40YBL1ErKWSqYZl7h6T0LEJGWBuDtodA4","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"artwork_url":"https://i1.sndcdn.com/artworks-3qzrbgsySECaU83w-12nuCw-large.jpg","caption":null,"commentable":true,"comment_count":132,"created_at":"2023-09-20T03:24:47Z","description":"","downloadable":false,"download_count":0,"duration":147226,"full_duration":147226,"embeddable_by":"all","genre":"","has_downloads_left":false,"id":1620453762,"kind":"track","label_name":null,"last_modified":"2023-09-20T17:50:55Z","license":"all-rights-reserved","likes_count":5195,"permalink":"dimension-expander-feat-probcause","permalink_url":"https://soundcloud.com/griz/dimension-expander-feat-probcause","playback_count":210668,"public":true,"publisher_metadata":{"id":1620453762,"urn":"soundcloud:tracks:1620453762","contains_music":true},"purchase_title":null,"purchase_url":null,"release_date":null,"reposts_count":147,"secret_token":null,"sharing":"public","state":"finished","streamable":true,"tag_list":"","title":"Dimension Expander (feat. ProbCause)","track_format":"single-track","uri":"https://api.soundcloud.com/tracks/1620453762","urn":"soundcloud:tracks:1620453762","user_id":110021,"visuals":null,"waveform_url":"https://wave.sndcdn.com/zO68IAFUUGAw_m.json","display_date":"2023-09-20T17:50:55Z","media":{"transcodings":[{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/hls","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/984bee03-5270-4ac5-9405-4b9abe616d8f/stream/progressive","preset":"mp3_1_0","duration":147226,"snipped":false,"format":{"protocol":"progressive","mime_type":"audio/mpeg"},"quality":"sq"},{"url":"https://api-v2.soundcloud.com/media/soundcloud:tracks:1620453762/1ae48eae-bdad-4e19-8faa-bd802ac947e4/stream/hls","preset":"opus_0_0","duration":147207,"snipped":false,"format":{"protocol":"hls","mime_type":"audio/ogg; codecs=\"opus\""},"quality":"sq"}]},"station_urn":"soundcloud:system-playlists:track-stations:1620453762","station_permalink":"track-stations:1620453762","track_authorization":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJVUyIsInN1YiI6IiIsInJpZCI6IjM1MzEyMjY2LWMzZGQtNDFjZS04OWMyLTlmZGUyMGY3MjRjYiIsImlhdCI6MTcwNzE1NDMyMX0.wGkC-HGLjDVMHbqZC1Sdx7HBt651DmjyFppSPmz1waI","monetization_model":"BLACKBOX","policy":"MONETIZE","user":{"avatar_url":"https://i1.sndcdn.com/avatars-000713742847-18yn50-large.jpg","first_name":"MAD☩LiBERATOR","followers_count":435056,"full_name":"MAD☩LiBERATOR","id":110021,"kind":"user","last_modified":"2023-10-06T04:00:20Z","last_name":"","permalink":"griz","permalink_url":"https://soundcloud.com/griz","uri":"https://api.soundcloud.com/users/110021","urn":"soundcloud:users:110021","username":"GRiZ","verified":true,"city":"Detroit","country_code":"US","badges":{"pro":false,"pro_unlimited":true,"verified":true},"station_urn":"soundcloud:system-playlists:artist-stations:110021","station_permalink":"artist-stations:110021"}},{"id":1620453942,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453885,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454314,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454731,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455055,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454524,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454050,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454605,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454476,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454221,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620453999,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454749,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454020,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454767,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454641,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454161,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454275,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620454686,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"},{"id":1620455097,"kind":"track","monetization_model":"BLACKBOX","policy":"MONETIZE"}],"track_count":24,"url":"/griz/sets/id-bible-1"}}];

@@ -2,14 +2,10 @@ package cmd
 
 import (
 	"fmt"
-	"godlp/embed"
 	"godlp/utils"
-	"log"
 	"os"
-	"path/filepath"
 
 	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
 )
 
 // soundcloudCmd represents the soundcloud command
@@ -37,56 +33,56 @@ in place.`,
 		// Generate the temporary directory path
 		tempDir := cwd + "/temp"
 
-		scArgs := []string{
-			"-o", "%(title)s.%(ext)s",
-			"--embed-metadata",
-			"--embed-thumbnail",
-			"--metadata-from-title", "%(album)s",
-			"--paths", tempDir,
-			args[0], // Assuming soundcloudURL is the first argument
-		}
+		// scArgs := []string{
+		// 	"-o", "%(title)s.%(ext)s",
+		// 	"--embed-metadata",
+		// 	"--embed-thumbnail",
+		// 	"--metadata-from-title", "%(album)s",
+		// 	"--paths", tempDir,
+		// 	args[0], // Assuming soundcloudURL is the first argument
+		// }
 
-		embed.ExecuteYtDlp(scArgs)
+		// embed.ExecuteYtDlp(scArgs)
 
 		albumName, _ := cmd.Flags().GetString("album")
 		if albumName == "" {
 			fmt.Println("No album name provided. Grabbing Artist name instead.")
-			artistName, err := utils.ExtractArtistNameFromFile(tempDir)
+			albumTitle, err := utils.ScrapeSoundcloudAlbumTitle(args[0])
 			if err != nil {
-				fmt.Printf("Error extracting artist name: %v\n", err)
+				fmt.Printf("Error scraping album name: %v\n", err)
 				return
 			}
-			albumName = artistName
+			albumName = albumTitle
 		} else {
 			fmt.Println("Album flag provided. Writing with ffmpeg...")
 			utils.ChangeAlbumNameWithFFmpeg(tempDir, albumName)
 		}
 
 		// Generate the final music directory path
-		musicDir := viper.GetString("music_directory")
-		saveDir := filepath.Join(musicDir, albumName)
+		// musicDir := viper.GetString("music_directory")
+		// saveDir := filepath.Join(musicDir, albumName)
 
 		// Move files from tempDir to musicDir
-		err = os.MkdirAll(saveDir, os.ModePerm)
-		if err != nil {
-			fmt.Printf("Error creating music directory: %v\n", err)
-			return
-		}
+		// err = os.MkdirAll(saveDir, os.ModePerm)
+		// if err != nil {
+		// 	fmt.Printf("Error creating music directory: %v\n", err)
+		// 	return
+		// }
 
-		err = utils.MoveFiles(tempDir, saveDir)
-		if err != nil {
-			fmt.Printf("Error moving files: %v\n", err)
-			return
-		}
+		// err = utils.MoveFiles(tempDir, saveDir)
+		// if err != nil {
+		// 	fmt.Printf("Error moving files: %v\n", err)
+		// 	return
+		// }
 
-		fmt.Println("Files moved to:", saveDir)
+		// fmt.Println("Files moved to:", saveDir)
 
-		// Remove the tempDir when done
-		err = os.RemoveAll(tempDir)
-		if err != nil {
-			log.Printf("Error removing temp directory: %v\n", err)
-			return
-		}
+		// // Remove the tempDir when done
+		// err = os.RemoveAll(tempDir)
+		// if err != nil {
+		// 	log.Printf("Error removing temp directory: %v\n", err)
+		// 	return
+		// }
 	},
 }
 
