@@ -7,10 +7,10 @@ import (
 	"os/exec"
 )
 
-//go:embed yt-dlp
+//go:embed yt-dlp-macos
 var ytDlpBinary []byte
 
-//go:embed ffmpeg
+//go:embed ffmpeg-macos
 var ffmpegBinary []byte
 
 func ExecuteYtDlp(args []string) {
