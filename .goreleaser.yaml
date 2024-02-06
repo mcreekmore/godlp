@@ -19,7 +19,7 @@ universal_binaries:
 
 brews:
   - name: godlp
-    formula: Formula
+    folder: Formula
     homepage: https://github.com/mcreekmore/godlp
     description: 'A convenient wrapper for yt-dlp'
     repository:
