@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/mcreekmore/godlp/embed"
 	"github.com/mcreekmore/godlp/utils"
 	"log"
 	"os"
@@ -46,7 +45,7 @@ in place.`,
 			args[0], // Assuming soundcloudURL is the first argument
 		}
 
-		embed.ExecuteYtDlp(scArgs)
+		utils.ExecuteYtDlp(scArgs)
 
 		albumName, _ := cmd.Flags().GetString("album")
 		if albumName == "" {
