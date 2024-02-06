@@ -12,13 +12,25 @@ godlp is a Go-based command-line interface (CLI) application that wraps commonly
 - **Configuration Management:** Utilizes Viper for easy configuration management, allowing users to customize settings through configuration files.
 - **Extendable:** Easily extend and add new features by leveraging the modular nature of Cobra commands.
 
-## Installation
+## Install
+
+```bash
+brew tap mcreekmore/mcreekmore
+brew install godlp
+```
+
+## Develop
 
 Make sure you have Go installed. Clone the godlp repository and build the executable:
 
 ```bash
 git clone https://github.com/mcreekmore/godlp.git
 cd godlp
+
+# run
+go run main.go
+
+# build
 go build -o godlp main.go
 ```
 
@@ -30,15 +42,30 @@ Run godlp:
 
 ## Usage
 
+```
+  godlp [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  soundcloud  For downloading tracks from soundcloud
+
+Flags:
+      --config string   config file (default is $HOME/.godlp.yaml)
+  -h, --help            help for godlp
+  -t, --toggle          help message for toggle
+
+Use "godlp [command] --help" for more information about a command.
+```
+
 ## Configuration
 
 godlp uses Viper for configuration management. The configuration file is located at `~/.godlp.yaml` by default. You can customize settings in this file or create a new one using the `config` command.
 
-Example configuration file:
+Copy the `example.godlp.yaml` into your home directory.
 
-```yaml
-# output_directory: ~/Downloads
-# format: bestvideo+bestaudio
+```bash
+cp example.godlp.yaml ~/.godlp.yaml
 ```
 
 ## License

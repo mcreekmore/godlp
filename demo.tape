@@ -1,10 +1,9 @@
-Set FontSize 16
-Set CursorBlink false
+Set FontSize 20
 Sleep 1s
-Type "./godlp"
+Type "godlp"
 Enter
 Sleep 2s
-Type "./godlp soundcloud https://soundcloud.com/griz/sets/ouroboros --album Ouroboros"
+Type "godlp soundcloud https://soundcloud.com/griz/sets/ouroboros --album Ouroboros"
 Enter
-Sleep 100s
+Sleep 20s
 
