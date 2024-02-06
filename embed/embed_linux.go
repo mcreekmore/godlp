@@ -4,8 +4,8 @@ import (
 	_ "embed"
 )
 
-//go:embed yt-dlp-linux
+//go:embed yt-dlp_linux
 var YtDlpBinary []byte
 
-//go:embed ffmpeg-linux
+//go:embed ffmpeg_linux
 var FfmpegBinary []byte
