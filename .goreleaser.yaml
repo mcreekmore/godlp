@@ -20,7 +20,7 @@ universal_binaries:
 brews:
   - name: mcreekmore
     homepage: https://github.com/mcreekmore/godlp
-    tap:
+    repository:
       owner: mcreekmore
       name: homebrew-mcreekmore
     commit_author:
