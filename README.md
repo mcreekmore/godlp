@@ -32,11 +32,8 @@ go run main.go
 
 # build
 go build -o godlp main.go
-```
 
-Run godlp:
-
-```bash
+# run built binary
 ./godlp
 ```
 
