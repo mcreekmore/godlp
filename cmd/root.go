@@ -4,11 +4,13 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/mcreekmore/godlp/utils"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
 
 var cfgFile string
+var ffmpegBinaryPath string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
@@ -65,5 +67,11 @@ func initConfig() {
 	// If a config file is found, read it in.
 	if err := viper.ReadInConfig(); err == nil {
 		fmt.Fprintln(os.Stderr, "Using config file:", viper.ConfigFileUsed())
+	}
+
+	// initialize binaries
+	err := utils.InitBinaries()
+	if err != nil {
+		fmt.Printf("Error Initializing binaries: %v\n", err)
 	}
 }

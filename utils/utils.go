@@ -2,13 +2,45 @@ package utils
 
 import (
 	"fmt"
-	"github.com/mcreekmore/godlp/embed"
 	"io"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"strings"
+	"sync"
+
+	"github.com/mcreekmore/godlp/embed"
 )
+
+var ytdlpBinaryPath string
+var ffmpegBinaryPath string
+
+func InitBinaries() error {
+	fmt.Println("Initializing ffmpeg...")
+
+	tempDir, err := os.MkdirTemp("", "embed")
+	if err != nil {
+		fmt.Printf("Error creating temporary directory: %v\n", err)
+		return err
+	}
+	defer os.RemoveAll(tempDir)
+
+	ytDlpBinaryPath := tempDir + "/yt-dlp"
+	err = os.WriteFile(ytDlpBinaryPath, embed.YtDlpBinary, 0755)
+	if err != nil {
+		fmt.Printf("Error writing yt-dlp binary to temporary location: %v\n", err)
+		return err
+	}
+
+	ffmpegBinaryPath = tempDir + "/ffmpeg"
+	err = os.WriteFile(ffmpegBinaryPath, embed.FfmpegBinary, 0755)
+	if err != nil {
+		fmt.Printf("Error writing ffmpeg binary to temporary location: %v\n", err)
+		return err
+	}
+	return nil
+}
+
 func ExecuteYtDlp(args []string) {
 	// Create a temporary directory
 	tempDir, err := os.MkdirTemp("", "embed")
@@ -50,12 +82,14 @@ func ExecuteYtDlp(args []string) {
 	fmt.Println(string(output))
 }
 
-func ExecuteFfmpeg(args []string) error {
+func InitFfmpeg() (string, error) {
+	fmt.Println("Initializing ffmpeg...")
+
 	// Create a temporary directory
 	tempDir, err := os.MkdirTemp("", "embed")
 	if err != nil {
 		fmt.Printf("Error creating temporary directory: %v\n", err)
-		return err
+		return "", err
 	}
 	defer os.RemoveAll(tempDir)
 
@@ -64,11 +98,14 @@ func ExecuteFfmpeg(args []string) error {
 	err = os.WriteFile(ffmpegBinaryPath, embed.FfmpegBinary, 0755)
 	if err != nil {
 		fmt.Printf("Error writing ffmpeg binary to temporary location: %v\n", err)
-		return err
+		return "", err
 	}
+	return ffmpegBinaryPath, nil
+}
 
+func ExecuteFfmpeg(path string, args []string) error {
 	// Execute ffmpeg from the temporary location
-	cmd := exec.Command(ffmpegBinaryPath, args...)
+	cmd := exec.Command(path, args...)
 	output, err := cmd.CombinedOutput()
 
 	if err != nil {
@@ -143,27 +180,77 @@ func ExtractArtistNameFromFile(tempDir string) (string, error) {
 	return artistName, nil
 }
 
-func ChangeAlbumNameWithFFmpeg(directory, albumName string) error {
+// func ChangeAlbumNameWithFFmpeg(directory, albumName string) error {
+// 	files, err := filepath.Glob(filepath.Join(directory, "*"))
+// 	if err != nil {
+// 		return err
+// 	}
+
+// 	for _, file := range files {
+// 		ffmpegArgs := []string{
+// 			"-y",
+// 			"-i", file,
+// 			"-metadata", fmt.Sprintf("album=%s", albumName),
+// 			"-c", "copy",
+// 			file + "_temp.mp3",
+// 		}
+// 		err := ExecuteFfmpeg(ffmpegBinaryPath, ffmpegArgs)
+// 		if err != nil {
+// 			return err
+// 		}
+
+// 		// Replace the original file with the one containing updated metadata
+// 		err = os.Rename(file+"_temp.mp3", file)
+// 		if err != nil {
+// 			return err
+// 		}
+// 	}
+
+// 	return nil
+// }
+
+func ChangeAlbumNameWithFFmpegConcurrent(directory, albumName string) error {
 	files, err := filepath.Glob(filepath.Join(directory, "*"))
 	if err != nil {
 		return err
 	}
 
-	for _, file := range files {
-		ffmpegArgs := []string{
-			"-y",
-			"-i", file,
-			"-metadata", fmt.Sprintf("album=%s", albumName),
-			"-c", "copy",
-			file + "_temp.mp3",
-		}
-		err := ExecuteFfmpeg(ffmpegArgs)
-		if err != nil {
-			return err
-		}
+	var wg sync.WaitGroup
+	errCh := make(chan error, len(files))
 
-		// Replace the original file with the one containing updated metadata
-		err = os.Rename(file+"_temp.mp3", file)
+	for _, file := range files {
+		wg.Add(1)
+		go func(file string) {
+			defer wg.Done()
+
+			ffmpegArgs := []string{
+				"-y",
+				"-i", file,
+				"-metadata", fmt.Sprintf("album=%s", albumName),
+				"-c", "copy",
+				file + "_temp.mp3",
+			}
+
+			err := ExecuteFfmpeg(ffmpegBinaryPath, ffmpegArgs)
+			if err != nil {
+				errCh <- err
+				return
+			}
+
+			err = os.Rename(file+"_temp.mp3", file)
+			if err != nil {
+				errCh <- err
+				return
+			}
+		}(file)
+	}
+
+	go func() {
+		wg.Wait()
+		close(errCh)
+	}()
+
+	for err := range errCh {
 		if err != nil {
 			return err
 		}

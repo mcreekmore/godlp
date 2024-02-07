@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/mcreekmore/godlp/utils"
 	"log"
 	"os"
 	"path/filepath"
+
+	"github.com/mcreekmore/godlp/utils"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -58,7 +59,7 @@ in place.`,
 			albumName = artistName
 		} else {
 			fmt.Println("Album flag provided. Writing with ffmpeg...")
-			utils.ChangeAlbumNameWithFFmpeg(tempDir, albumName)
+			utils.ChangeAlbumNameWithFFmpegConcurrent(tempDir, albumName)
 		}
 
 		// Generate the final music directory path
@@ -91,10 +92,12 @@ in place.`,
 
 func init() {
 	rootCmd.AddCommand(soundcloudCmd)
+
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
 	// soundcloudCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
 	soundcloudCmd.Flags().StringP("album", "a", "", "if it's an album, use this string to name the save directory")
+
 }
