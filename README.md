@@ -4,7 +4,7 @@
 
 ## Overview
 
-godlp is a Go-based command-line interface (CLI) application that wraps commonly used functionality of the [yt-dlp](https://github.com/yt-dlp/yt-dlp) app. It leverages the [Cobra](https://github.com/spf13/cobra) framework for building CLI applications and [Viper](https://github.com/spf13/viper) for configuration management, providing a user-friendly and extensible interface for interacting with yt-dlp.
+godlp is a Go-based CLI app that wraps commonly used functionality of yt-dlp. It leverages Cobra for building CLI apps and Viper for configuration management, providing a user-friendly tool for downloading web content.
 
 ## Features
 
